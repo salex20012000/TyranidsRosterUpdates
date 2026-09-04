@@ -1,7 +1,7 @@
 {
-  "version": "1.1.0",
+  "version": "1.1.1",
   "schema_version": 4,
   "database_url": "https://raw.githubusercontent.com/salex20012000/TyranidsRosterUpdates/main/tyranids_database.json",
-  "notes": "Database Tyranids V4 - 52 unità - schema 4",
-  "sha256": "e34159292145ade143eae79bc81f0b2029c7174b5f06d8ac37f383f7b9ef15a6"
+  "notes": "Test aggiornamento remoto 1.1.1 - contenuto invariato, solo versione aggiornata",
+  "sha256": "95b46acf85f44fa7ebfa75fcd289c68cbb1b2bab0a5a4b308abe189d5ec52ca2"
 }
