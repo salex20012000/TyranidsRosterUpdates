@@ -1,7 +1,10 @@
 {
-  "version": "1.1.2",
-  "schema_version": 4,
+  "version": "2.0.0",
+  "schema_version": 5,
+  "game_schema_version": 5,
+  "listbuilder_schema_version": 2,
+  "game_database_url": "https://raw.githubusercontent.com/salex20012000/TyranidsRosterUpdates/main/tyranids_game_data_11e_FINAL.json",
+  "listbuilder_database_url": "https://raw.githubusercontent.com/salex20012000/TyranidsRosterUpdates/main/tyranids_listbuilder_competitive_FINAL.json",
   "database_url": "https://raw.githubusercontent.com/salex20012000/TyranidsRosterUpdates/main/tyranids_database.json",
-  "notes": "Test aggiornamento remoto 1.1.2 - contenuto invariato, solo versione aggiornata",
-  "sha256": "36c7d8e4c33e466b399238a902712f07a3f5e78811efbc28fa9d17b9f3b7f3fa"
+  "notes": "Dual database update: GAME DATA 11E V5 FINAL + LIST BUILDER COMPETITIVE V2 FINAL. Legacy database retained as fallback."
 }
