@@ -1,0 +1,1476 @@
+{
+  "schema_version": 2,
+  "database_name": "Tyranids List Builder Competitive",
+  "content_version": "V2-AUDITED-FINAL-DUAL-DB",
+  "edition": "11",
+  "database_role": "LIST_BUILDER_COMPETITIVE",
+  "release_channel": "FINAL",
+  "game_database_dependency": {
+    "database_name": "Tyranids Game Data 11E",
+    "minimum_content_version": "V5-AUDITED-FINAL-DUAL-DB",
+    "join_key": "unit_id",
+    "rule": "Do not duplicate points, profiles, weapon statistics, keyword text or datasheet ability text here."
+  },
+  "source_priority": [
+    "GW / Warhammer 40,000 official",
+    "BSData wh40k-11e",
+    "Wahapedia 11e",
+    "New Recruit 11e",
+    "local database"
+  ],
+  "loadout_rules": {
+    "tyr_winged_hive_tyrant": {
+      "name": "Winged Hive Tyrant",
+      "classification": "CONFIGURABLE",
+      "verified": true,
+      "default_equipment": [],
+      "local_wargear_options": [
+        "Monstrous scything talons",
+        "Stranglethorn cannon",
+        "Heavy venom cannon",
+        "Monstrous bonesword and lash whip"
+      ],
+      "slots": [
+        {
+          "slot_id": "primary_arms",
+          "scope": "MODEL",
+          "base": "Monstrous bonesword and lash whip",
+          "choose_exactly": 1,
+          "options": [
+            "Monstrous bonesword and lash whip",
+            "Heavy venom cannon",
+            "Stranglethorn cannon",
+            "Monstrous scything talons"
+          ]
+        }
+      ],
+      "quantity_rules": [],
+      "forbidden_combinations": [],
+      "integration_state": "READY_EXPLICIT",
+      "audit_note": "Equipaggiamento base: monstrous bonesword and lash whip + Tyrant talons; una sostituzione sul primo slot, Tyrant talons restano separati.",
+      "fixed_equipment": [
+        "Tyrant talons"
+      ],
+      "competitive_ready": true
+    },
+    "tyr_hive_tyrant": {
+      "name": "Hive Tyrant",
+      "classification": "CONFIGURABLE",
+      "verified": true,
+      "default_equipment": [
+        "Monstrous bonesword and lash whip",
+        "Monstrous scything talons"
+      ],
+      "local_wargear_options": [
+        "Monstrous bonesword and lash whip may be replaced by heavy venom cannon, stranglethorn cannon, or monstrous scything talons.",
+        "Monstrous scything talons may be replaced by heavy venom cannon or stranglethorn cannon.",
+        "Cannot equip both stranglethorn cannon and heavy venom cannon; maximum one of each."
+      ],
+      "slots": [
+        {
+          "slot_id": "primary_arms",
+          "base": "Monstrous bonesword and lash whip",
+          "choose_exactly": 1,
+          "options": [
+            "Monstrous bonesword and lash whip",
+            "Heavy venom cannon",
+            "Stranglethorn cannon",
+            "Monstrous scything talons"
+          ]
+        },
+        {
+          "slot_id": "secondary_arms",
+          "base": "Monstrous scything talons",
+          "choose_exactly": 1,
+          "options": [
+            "Monstrous scything talons",
+            "Heavy venom cannon",
+            "Stranglethorn cannon",
+            "Monstrous bonesword and lash whip"
+          ]
+        }
+      ],
+      "quantity_rules": [],
+      "forbidden_combinations": [
+        [
+          "Heavy venom cannon",
+          "Stranglethorn cannon"
+        ]
+      ],
+      "integration_state": "READY_EXPLICIT",
+      "audit_note": "Più slot indipendenti; richiede vincoli per slot e incompatibilità specifiche.",
+      "competitive_ready": true
+    },
+    "tyr_tervigon": {
+      "name": "Tervigon",
+      "classification": "CONFIGURABLE",
+      "verified": true,
+      "default_equipment": [
+        "Stinger salvoes",
+        "Massive crushing claws or massive scything talons"
+      ],
+      "local_wargear_options": [],
+      "slots": [
+        {
+          "slot_id": "melee_arms",
+          "scope": "MODEL",
+          "base": "Massive scything talons",
+          "choose_exactly": 1,
+          "options": [
+            "Massive scything talons",
+            "Massive crushing claws"
+          ]
+        }
+      ],
+      "quantity_rules": [],
+      "forbidden_combinations": [],
+      "integration_state": "READY_EXPLICIT",
+      "audit_note": "Scelta melee sostitutiva; il DB locale è incompleto.",
+      "fixed_equipment": [
+        "Stinger salvoes"
+      ],
+      "competitive_ready": true
+    },
+    "tyr_the_swarmlord": {
+      "name": "The Swarmlord",
+      "classification": "FIXED",
+      "verified": true,
+      "default_equipment": [
+        "Bone sabres",
+        "Synaptic pulse"
+      ],
+      "local_wargear_options": [],
+      "slots": [],
+      "quantity_rules": [],
+      "forbidden_combinations": [],
+      "integration_state": "FIXED_NO_SELECTOR",
+      "audit_note": "Equipaggiamento fisso; niente scelta armi competitiva.",
+      "competitive_ready": true
+    },
+    "tyr_broodlord": {
+      "name": "Broodlord",
+      "classification": "FIXED",
+      "verified": true,
+      "default_equipment": [
+        "Broodlord claws and talons"
+      ],
+      "local_wargear_options": [],
+      "slots": [],
+      "quantity_rules": [],
+      "forbidden_combinations": [],
+      "integration_state": "FIXED_NO_SELECTOR",
+      "audit_note": "Equipaggiamento fisso; niente scelta armi competitiva.",
+      "competitive_ready": true
+    },
+    "tyr_old_one_eye": {
+      "name": "Old One Eye",
+      "classification": "FIXED",
+      "verified": true,
+      "default_equipment": [
+        "Old One Eye's claws and talons"
+      ],
+      "local_wargear_options": [],
+      "slots": [],
+      "quantity_rules": [],
+      "forbidden_combinations": [],
+      "integration_state": "FIXED_NO_SELECTOR",
+      "audit_note": "Equipaggiamento fisso; niente scelta armi competitiva.",
+      "competitive_ready": true
+    },
+    "tyr_warriors_ranged": {
+      "name": "Tyranid Warriors With Ranged Bio-weapons",
+      "classification": "CONFIGURABLE_MULTI_MODEL",
+      "verified": true,
+      "default_equipment": [
+        "Devourer",
+        "Tyranid Warrior claws and talons"
+      ],
+      "local_wargear_options": [
+        "Any number of models may replace devourer with deathspitter or spinefists.",
+        "For every 3 models, 1 devourer may be replaced with a barbed strangler.",
+        "For every 3 models, 1 devourer may be replaced with a venom cannon."
+      ],
+      "slots": [],
+      "quantity_rules": [
+        {
+          "weapon": "Barbed strangler",
+          "max_per_models": {
+            "count": 1,
+            "models": 3
+          }
+        },
+        {
+          "weapon": "Venom cannon",
+          "max_per_models": {
+            "count": 1,
+            "models": 3
+          }
+        }
+      ],
+      "forbidden_combinations": [],
+      "integration_state": "READY_EXPLICIT",
+      "audit_note": "Ogni modello parte con devourer + claws/talons; any number -> deathspitter/spinefists; 1 barbed strangler ogni 3 modelli; 1 venom cannon ogni 3 modelli.",
+      "competitive_ready": true
+    },
+    "tyr_warriors_melee": {
+      "name": "Tyranid Warriors With Melee Bio-weapons",
+      "classification": "FIXED_MULTI_MODEL",
+      "verified": true,
+      "default_equipment": [
+        "Tyranid Warrior claws and talons"
+      ],
+      "local_wargear_options": [],
+      "slots": [],
+      "quantity_rules": [],
+      "forbidden_combinations": [],
+      "integration_state": "FIXED_NO_SELECTOR",
+      "audit_note": "Ogni modello usa Tyranid Warrior claws and talons; nessuna opzione wargear rilevata.",
+      "competitive_ready": true
+    },
+    "tyr_termagants": {
+      "name": "Termagants",
+      "classification": "CONFIGURABLE_MULTI_MODEL",
+      "verified": true,
+      "default_equipment": [
+        "Fleshborer",
+        "Chitinous claws and teeth"
+      ],
+      "local_wargear_options": [
+        "All models may replace fleshborer with Termagant devourer.",
+        "All models may replace fleshborer with Termagant spinefists.",
+        "For every 10 models, 1 ranged weapon may be replaced with a shardlauncher.",
+        "For every 10 models, 1 ranged weapon may be replaced with a spike rifle.",
+        "For every 10 models, 1 ranged weapon may be replaced with a strangleweb."
+      ],
+      "slots": [],
+      "quantity_rules": [
+        {
+          "weapon": "Shardlauncher",
+          "max_per_models": {
+            "count": 1,
+            "models": 10
+          }
+        },
+        {
+          "weapon": "Spike rifle",
+          "max_per_models": {
+            "count": 1,
+            "models": 10
+          }
+        },
+        {
+          "weapon": "Strangleweb",
+          "max_per_models": {
+            "count": 1,
+            "models": 10
+          }
+        }
+      ],
+      "forbidden_combinations": [],
+      "integration_state": "READY_EXPLICIT",
+      "audit_note": "Scelte per modello + limiti per 10 modelli.",
+      "competitive_ready": true
+    },
+    "tyr_hormagaunts": {
+      "name": "Hormagaunts",
+      "classification": "FIXED_MULTI_MODEL",
+      "verified": true,
+      "default_equipment": [
+        "Hormagaunt talons"
+      ],
+      "local_wargear_options": [],
+      "slots": [],
+      "quantity_rules": [],
+      "forbidden_combinations": [],
+      "integration_state": "FIXED_NO_SELECTOR",
+      "audit_note": "10-20 modelli; ogni modello ha Hormagaunt talons; nessuna scelta equipaggiamento.",
+      "competitive_ready": true
+    },
+    "tyr_gargoyles": {
+      "name": "Gargoyles",
+      "classification": "FIXED_MULTI_MODEL",
+      "verified": true,
+      "default_equipment": [
+        "Fleshborer",
+        "Blinding venom"
+      ],
+      "local_wargear_options": [],
+      "slots": [],
+      "quantity_rules": [],
+      "forbidden_combinations": [],
+      "integration_state": "FIXED_NO_SELECTOR",
+      "audit_note": "Equipaggiamento fisso per i modelli.",
+      "competitive_ready": true
+    },
+    "tyr_toxicrene": {
+      "name": "Toxicrene",
+      "classification": "FIXED",
+      "verified": true,
+      "default_equipment": [
+        "Massive toxic lashes"
+      ],
+      "local_wargear_options": [],
+      "slots": [],
+      "quantity_rules": [],
+      "forbidden_combinations": [],
+      "integration_state": "FIXED_NO_SELECTOR",
+      "audit_note": "Equipaggiamento fisso.",
+      "competitive_ready": true
+    },
+    "tyr_tyrant_guard": {
+      "name": "Tyrant Guard",
+      "classification": "CONFIGURABLE_MULTI_MODEL",
+      "verified": true,
+      "default_equipment": [
+        "Scything talons and rending claws"
+      ],
+      "local_wargear_options": [],
+      "slots": [
+        {
+          "slot_id": "melee_per_model",
+          "scope": "EACH_MODEL",
+          "base": "Scything talons and rending claws",
+          "choose_exactly": 1,
+          "options": [
+            "Scything talons and rending claws",
+            "Bone cleaver, lash whip and rending claws",
+            "Crushing claws and rending claws"
+          ]
+        }
+      ],
+      "quantity_rules": [],
+      "forbidden_combinations": [],
+      "integration_state": "READY_EXPLICIT",
+      "audit_note": "Sostituzioni per singolo modello; configurazioni miste.",
+      "competitive_ready": true
+    },
+    "tyr_winged_tyranid_prime": {
+      "name": "Winged Tyranid Prime",
+      "classification": "FIXED",
+      "verified": true,
+      "default_equipment": [
+        "Prime talons"
+      ],
+      "local_wargear_options": [],
+      "slots": [],
+      "quantity_rules": [],
+      "forbidden_combinations": [],
+      "integration_state": "FIXED_NO_SELECTOR",
+      "audit_note": "Equipaggiamento fisso; nessuna scelta wargear competitiva rilevata.",
+      "competitive_ready": true
+    },
+    "tyr_lictor": {
+      "name": "Lictor",
+      "classification": "FIXED",
+      "verified": true,
+      "default_equipment": [
+        "Lictor claws and talons"
+      ],
+      "local_wargear_options": [],
+      "slots": [],
+      "quantity_rules": [],
+      "forbidden_combinations": [],
+      "integration_state": "FIXED_NO_SELECTOR",
+      "audit_note": "1 modello; Lictor claws and talons; nessuna scelta wargear.",
+      "competitive_ready": true
+    },
+    "tyr_deathleaper": {
+      "name": "Deathleaper",
+      "classification": "FIXED",
+      "verified": true,
+      "default_equipment": [
+        "Lictor claws and talons"
+      ],
+      "local_wargear_options": [],
+      "slots": [],
+      "quantity_rules": [],
+      "forbidden_combinations": [],
+      "integration_state": "FIXED_NO_SELECTOR",
+      "audit_note": "Equipaggiamento fisso.",
+      "competitive_ready": true
+    },
+    "tyr_maleceptor": {
+      "name": "Maleceptor",
+      "classification": "FIXED",
+      "verified": true,
+      "default_equipment": [
+        "Massive scything talons",
+        "Psychic overload"
+      ],
+      "local_wargear_options": [],
+      "slots": [],
+      "quantity_rules": [],
+      "forbidden_combinations": [],
+      "integration_state": "FIXED_NO_SELECTOR",
+      "audit_note": "Equipaggiamento fisso: psychic overload + massive scything talons con profili strike/sweep.",
+      "competitive_ready": true
+    },
+    "tyr_neurotyrant": {
+      "name": "Neurotyrant",
+      "classification": "FIXED",
+      "verified": true,
+      "default_equipment": [
+        "Psychic scream",
+        "Neurotyrant claws and lashes"
+      ],
+      "local_wargear_options": [],
+      "slots": [],
+      "quantity_rules": [],
+      "forbidden_combinations": [],
+      "integration_state": "FIXED_NO_SELECTOR",
+      "audit_note": "Equipaggiamento fisso.",
+      "competitive_ready": true
+    },
+    "tyr_pyrovores": {
+      "name": "Pyrovores",
+      "classification": "FIXED_MULTI_MODEL",
+      "verified": true,
+      "default_equipment": [
+        "Flamespurt",
+        "Chitin-barbed limbs"
+      ],
+      "local_wargear_options": [],
+      "slots": [],
+      "quantity_rules": [],
+      "forbidden_combinations": [],
+      "integration_state": "FIXED_NO_SELECTOR",
+      "audit_note": "1-3 modelli; ogni modello ha flamespurt + chitin-barbed limbs; nessuna scelta wargear.",
+      "competitive_ready": true
+    },
+    "tyr_haruspex": {
+      "name": "Haruspex",
+      "classification": "FIXED",
+      "verified": true,
+      "default_equipment": [
+        "Grasping tongue",
+        "Ravenous maw",
+        "Shovelling claws"
+      ],
+      "local_wargear_options": [],
+      "slots": [],
+      "quantity_rules": [],
+      "forbidden_combinations": [],
+      "integration_state": "FIXED_NO_SELECTOR",
+      "audit_note": "Equipaggiamento fisso multiplo; tutte le armi base vanno mantenute insieme.",
+      "competitive_ready": true
+    },
+    "tyr_venomthropes": {
+      "name": "Venomthropes",
+      "classification": "FIXED_MULTI_MODEL",
+      "verified": true,
+      "default_equipment": [
+        "Toxic lashes"
+      ],
+      "local_wargear_options": [],
+      "slots": [],
+      "quantity_rules": [],
+      "forbidden_combinations": [],
+      "integration_state": "FIXED_NO_SELECTOR",
+      "audit_note": "3-6 modelli; ogni modello ha toxic lashes; nessuna scelta wargear.",
+      "competitive_ready": true
+    },
+    "tyr_von_ryans_leapers": {
+      "name": "Von Ryan’s Leapers",
+      "classification": "FIXED_MULTI_MODEL",
+      "verified": true,
+      "default_equipment": [
+        "Leaper’s talons"
+      ],
+      "local_wargear_options": [],
+      "slots": [],
+      "quantity_rules": [],
+      "forbidden_combinations": [],
+      "integration_state": "FIXED_NO_SELECTOR",
+      "audit_note": "Equipaggiamento fisso per modello.",
+      "competitive_ready": true
+    },
+    "tyr_neurogaunts": {
+      "name": "Neurogaunts",
+      "classification": "FIXED_MULTI_MODEL",
+      "verified": true,
+      "default_equipment": [
+        "Chitinous claws and teeth"
+      ],
+      "local_wargear_options": [],
+      "slots": [],
+      "quantity_rules": [],
+      "forbidden_combinations": [],
+      "integration_state": "FIXED_NO_SELECTOR",
+      "audit_note": "1-2 Nodebeasts + 10-20 Neurogaunts; ogni modello ha chitinous claws and teeth; 2 Nodebeasts solo con 20 Neurogaunts.",
+      "competitive_ready": true
+    },
+    "tyr_zoanthropes": {
+      "name": "Zoanthropes",
+      "classification": "FIXED_MULTI_MODEL",
+      "verified": true,
+      "default_equipment": [
+        "Warp Blast",
+        "Chitinous claws and teeth"
+      ],
+      "local_wargear_options": [],
+      "slots": [],
+      "quantity_rules": [],
+      "forbidden_combinations": [],
+      "integration_state": "FIXED_NO_SELECTOR",
+      "audit_note": "Composizione Neurothrope + Zoanthropes; niente scelta arma rilevata.",
+      "competitive_ready": true
+    },
+    "tyr_ripper_swarms": {
+      "name": "Ripper Swarms",
+      "classification": "CONFIGURABLE_MULTI_MODEL",
+      "verified": true,
+      "default_equipment": [
+        "Chitinous claws and teeth"
+      ],
+      "local_wargear_options": [],
+      "slots": [],
+      "quantity_rules": [],
+      "forbidden_combinations": [],
+      "integration_state": "READY_EXPLICIT",
+      "audit_note": "1-3 modelli; base chitinous claws and teeth; tutti i modelli possono aggiungere 1 spinemaws.",
+      "fixed_equipment": [
+        "Chitinous claws and teeth"
+      ],
+      "add_on_rules": [
+        {
+          "scope": "ALL_MODELS",
+          "optional": true,
+          "equipment": "Spinemaws",
+          "rule": "All models in this unit can each be equipped with 1 spinemaws."
+        }
+      ],
+      "competitive_ready": true
+    },
+    "tyr_parasite_of_mortrex": {
+      "name": "Parasite of Mortrex",
+      "classification": "FIXED",
+      "verified": true,
+      "default_equipment": [
+        "Barbed ovipositor",
+        "Clawed limbs"
+      ],
+      "local_wargear_options": [],
+      "slots": [],
+      "quantity_rules": [],
+      "forbidden_combinations": [],
+      "integration_state": "FIXED_NO_SELECTOR",
+      "audit_note": "Equipaggiamento fisso: barbed ovipositor + clawed limbs; nessuna scelta wargear rilevata.",
+      "competitive_ready": true
+    },
+    "tyr_mawloc": {
+      "name": "Mawloc",
+      "classification": "FIXED",
+      "verified": true,
+      "default_equipment": [
+        "Distensible jaw",
+        "Mawloc scything talons"
+      ],
+      "local_wargear_options": [],
+      "slots": [],
+      "quantity_rules": [],
+      "forbidden_combinations": [],
+      "integration_state": "FIXED_NO_SELECTOR",
+      "audit_note": "Equipaggiamento fisso: distensible jaw + Mawloc scything talons.",
+      "competitive_ready": true
+    },
+    "tyr_trygon": {
+      "name": "Trygon",
+      "classification": "FIXED",
+      "verified": true,
+      "default_equipment": [
+        "Bio-electric pulse",
+        "Trygon scything talons"
+      ],
+      "local_wargear_options": [],
+      "slots": [],
+      "quantity_rules": [],
+      "forbidden_combinations": [],
+      "integration_state": "FIXED_NO_SELECTOR",
+      "audit_note": "Nessuna scelta arma competitiva rilevata nel controllo corrente.",
+      "competitive_ready": true
+    },
+    "tyr_spore_mines": {
+      "name": "Spore Mines",
+      "classification": "FIXED_MULTI_MODEL",
+      "verified": true,
+      "default_equipment": [],
+      "local_wargear_options": [],
+      "slots": [],
+      "quantity_rules": [],
+      "forbidden_combinations": [],
+      "integration_state": "FIXED_NO_SELECTOR",
+      "audit_note": "11e: unità Spore Mines senza scelte di equipaggiamento. Le mine generate da Harpy/Biovores sono unità di riferimento; nessun selettore arma deve essere mostrato nel List Builder.",
+      "competitive_ready": true
+    },
+    "tyr_exocrine": {
+      "name": "Exocrine",
+      "classification": "FIXED",
+      "verified": true,
+      "default_equipment": [
+        "Bio-plasmic cannon",
+        "Powerful limbs"
+      ],
+      "local_wargear_options": [],
+      "slots": [],
+      "quantity_rules": [],
+      "forbidden_combinations": [],
+      "integration_state": "FIXED_NO_SELECTOR",
+      "audit_note": "Equipaggiamento fisso.",
+      "competitive_ready": true
+    },
+    "tyr_mucolid_spores": {
+      "name": "Mucolid Spores",
+      "classification": "FIXED_MULTI_MODEL",
+      "verified": true,
+      "default_equipment": [],
+      "local_wargear_options": [],
+      "slots": [],
+      "quantity_rules": [],
+      "forbidden_combinations": [],
+      "integration_state": "FIXED_NO_SELECTOR",
+      "audit_note": "1-2 modelli; equipaggiamento: nothing.",
+      "competitive_ready": true
+    },
+    "tyr_biovores": {
+      "name": "Biovores",
+      "classification": "FIXED_MULTI_MODEL",
+      "verified": true,
+      "default_equipment": [
+        "Spore Mine launcher",
+        "Chitin-barbed limbs"
+      ],
+      "local_wargear_options": [],
+      "slots": [],
+      "quantity_rules": [],
+      "forbidden_combinations": [],
+      "integration_state": "FIXED_NO_SELECTOR",
+      "audit_note": "Equipaggiamento fisso per modello.",
+      "competitive_ready": true
+    },
+    "tyr_carnifexes": {
+      "name": "Carnifexes",
+      "classification": "CONFIGURABLE_COMPLEX",
+      "verified": true,
+      "default_equipment": [
+        "Carnifex scything talons",
+        "Carnifex extra scything talons",
+        "Chitinous claws and teeth"
+      ],
+      "local_wargear_options": [],
+      "slots": [
+        {
+          "slot_id": "extra_scything_slot",
+          "scope": "EACH_MODEL",
+          "base": "Carnifex extra scything talons",
+          "choose_exactly": 1,
+          "options": [
+            "Carnifex extra scything talons",
+            "Deathspitters with slimer maggots",
+            "Devourers with brainleech worms",
+            "Heavy venom cannon",
+            "Stranglethorn cannon",
+            "Carnifex crushing claws"
+          ]
+        },
+        {
+          "slot_id": "scything_slot",
+          "scope": "EACH_MODEL",
+          "base": "Carnifex scything talons",
+          "choose_exactly": 1,
+          "options": [
+            "Carnifex scything talons",
+            "Deathspitters with slimer maggots",
+            "Devourers with brainleech worms",
+            "Carnifex crushing claws"
+          ]
+        }
+      ],
+      "quantity_rules": [],
+      "forbidden_combinations": [],
+      "integration_state": "READY_EXPLICIT",
+      "audit_note": "Due slot principali indipendenti + opzioni aggiuntive; non selezionabili tutte insieme.",
+      "fixed_equipment": [
+        "Chitinous claws and teeth"
+      ],
+      "add_on_rules": [
+        {
+          "scope": "EACH_MODEL",
+          "optional": true,
+          "equipment": "Bio-plasma",
+          "max_per_model": 1
+        },
+        {
+          "scope": "EACH_MODEL",
+          "optional": true,
+          "equipment": "Spine banks",
+          "max_per_model": 1
+        }
+      ],
+      "competitive_ready": true
+    },
+    "tyr_screamer_killer": {
+      "name": "Screamer-killer",
+      "classification": "FIXED",
+      "verified": true,
+      "default_equipment": [
+        "Bio-plasmic scream",
+        "Screamer-killer talons"
+      ],
+      "local_wargear_options": [],
+      "slots": [],
+      "quantity_rules": [],
+      "forbidden_combinations": [],
+      "integration_state": "FIXED_NO_SELECTOR",
+      "audit_note": "Equipaggiamento fisso: bio-plasmic scream + Screamer-Killer talons.",
+      "competitive_ready": true
+    },
+    "tyr_hive_guard": {
+      "name": "Hive Guard",
+      "classification": "CONFIGURABLE_MULTI_MODEL",
+      "verified": true,
+      "default_equipment": [
+        "Shockcannon",
+        "Chitinous claws and teeth"
+      ],
+      "local_wargear_options": [],
+      "slots": [
+        {
+          "slot_id": "ranged_per_model",
+          "scope": "EACH_MODEL",
+          "base": "Shockcannon",
+          "choose_exactly": 1,
+          "options": [
+            "Shockcannon",
+            "Impaler cannon"
+          ]
+        }
+      ],
+      "quantity_rules": [],
+      "forbidden_combinations": [],
+      "integration_state": "READY_EXPLICIT",
+      "audit_note": "3-6 modelli; ogni modello parte con shockcannon + claws/teeth; qualsiasi numero può sostituire shockcannon con impaler cannon.",
+      "competitive_ready": true
+    },
+    "tyr_tyrannofex": {
+      "name": "Tyrannofex",
+      "classification": "CONFIGURABLE",
+      "verified": true,
+      "default_equipment": [
+        "Fleshborer hive",
+        "Stinger salvoes",
+        "Powerful limbs"
+      ],
+      "local_wargear_options": [],
+      "slots": [
+        {
+          "slot_id": "primary_weapon",
+          "base": "Fleshborer hive",
+          "choose_exactly": 1,
+          "options": [
+            "Fleshborer hive",
+            "Acid spray",
+            "Rupture cannon"
+          ]
+        }
+      ],
+      "quantity_rules": [],
+      "forbidden_combinations": [],
+      "integration_state": "READY_EXPLICIT",
+      "audit_note": "Uno slot principale tra più bio-armi; punti da GW MFM.",
+      "points_modifiers": {
+        "Acid spray": 10,
+        "Rupture cannon": 20
+      },
+      "competitive_ready": true
+    },
+    "tyr_tyrannocyte": {
+      "name": "Tyrannocyte",
+      "classification": "FIXED",
+      "verified": true,
+      "default_equipment": [
+        "Tyrannocyte bio-weapons",
+        "Flensing whips"
+      ],
+      "local_wargear_options": [],
+      "slots": [],
+      "quantity_rules": [],
+      "forbidden_combinations": [],
+      "integration_state": "FIXED_NO_SELECTOR",
+      "audit_note": "Equipaggiamento fisso; conflitto punti tra pagine NR: usare GW MFM.",
+      "competitive_ready": true
+    },
+    "tyr_harpy": {
+      "name": "Harpy",
+      "classification": "CONFIGURABLE",
+      "verified": true,
+      "default_equipment": [
+        "Stinger salvoes",
+        "Twin stranglethorn cannon",
+        "Scything wings"
+      ],
+      "local_wargear_options": [],
+      "slots": [
+        {
+          "slot_id": "main_cannon",
+          "scope": "MODEL",
+          "base": "Twin stranglethorn cannon",
+          "choose_exactly": 1,
+          "options": [
+            "Twin stranglethorn cannon",
+            "Twin heavy venom cannon"
+          ]
+        }
+      ],
+      "quantity_rules": [],
+      "forbidden_combinations": [],
+      "integration_state": "READY_EXPLICIT",
+      "audit_note": "Scelta tra twin stranglethorn cannon e twin heavy venom cannon.",
+      "fixed_equipment": [
+        "Stinger salvoes",
+        "Scything wings"
+      ],
+      "competitive_ready": true
+    },
+    "tyr_hive_crone": {
+      "name": "Hive Crone",
+      "classification": "FIXED",
+      "verified": true,
+      "default_equipment": [
+        "Scything wings",
+        "Stinger salvoes",
+        "Drool cannon",
+        "Tentaclids",
+        "Thorax spur"
+      ],
+      "local_wargear_options": [],
+      "slots": [],
+      "quantity_rules": [],
+      "forbidden_combinations": [],
+      "integration_state": "FIXED_NO_SELECTOR",
+      "audit_note": "Equipaggiamento fisso multiplo: drool cannon, stinger salvoes, tentaclids, scything wings, thorax spur.",
+      "competitive_ready": true
+    },
+    "tyr_sporocyst": {
+      "name": "Sporocyst",
+      "classification": "FIXED",
+      "verified": true,
+      "default_equipment": [
+        "Sporocyst bio-weapons",
+        "Flensing whips"
+      ],
+      "local_wargear_options": [],
+      "slots": [],
+      "quantity_rules": [],
+      "forbidden_combinations": [],
+      "integration_state": "FIXED_NO_SELECTOR",
+      "audit_note": "Equipaggiamento fisso.",
+      "competitive_ready": true
+    },
+    "tyr_psychophage": {
+      "name": "Psychophage",
+      "classification": "FIXED",
+      "verified": true,
+      "default_equipment": [
+        "Psychoclastic torrent",
+        "Talons and betentacled maw"
+      ],
+      "local_wargear_options": [],
+      "slots": [],
+      "quantity_rules": [],
+      "forbidden_combinations": [],
+      "integration_state": "FIXED_NO_SELECTOR",
+      "audit_note": "Equipaggiamento fisso: psychoclastic torrent + talons and betentacled maw.",
+      "competitive_ready": true
+    },
+    "tyr_barbgaunts": {
+      "name": "Barbgaunts",
+      "classification": "FIXED_MULTI_MODEL",
+      "verified": true,
+      "default_equipment": [
+        "Barblauncher",
+        "Chitinous claws and teeth"
+      ],
+      "local_wargear_options": [],
+      "slots": [],
+      "quantity_rules": [],
+      "forbidden_combinations": [],
+      "integration_state": "FIXED_NO_SELECTOR",
+      "audit_note": "5-10 modelli; ogni modello ha barblauncher + chitinous claws and teeth.",
+      "competitive_ready": true
+    },
+    "tyr_harridan": {
+      "name": "Harridan",
+      "classification": "FIXED",
+      "verified": true,
+      "default_equipment": [
+        "2 Bio-cannons",
+        "Gargantuan scything talons"
+      ],
+      "local_wargear_options": [],
+      "slots": [],
+      "quantity_rules": [],
+      "forbidden_combinations": [],
+      "integration_state": "FIXED_NO_SELECTOR",
+      "audit_note": "Dire bio-cannon + gargantuan scything talons entrambe base.",
+      "competitive_ready": true
+    },
+    "tyr_hierophant": {
+      "name": "Hierophant",
+      "classification": "FIXED",
+      "verified": true,
+      "default_equipment": [
+        "Bio-plasma torrent",
+        "2 Dire bio-cannons",
+        "Lashwhip pods",
+        "Titanic scything talons"
+      ],
+      "local_wargear_options": [],
+      "slots": [],
+      "quantity_rules": [],
+      "forbidden_combinations": [],
+      "integration_state": "FIXED_NO_SELECTOR",
+      "audit_note": "Equipaggiamento fisso multiplo.",
+      "competitive_ready": true
+    },
+    "tyr_genestealers": {
+      "name": "Genestealers",
+      "classification": "FIXED_MULTI_MODEL",
+      "verified": true,
+      "default_equipment": [
+        "Genestealer claws and talons"
+      ],
+      "local_wargear_options": [],
+      "slots": [],
+      "quantity_rules": [],
+      "forbidden_combinations": [],
+      "integration_state": "FIXED_NO_SELECTOR",
+      "audit_note": "5-10 modelli; ogni modello ha Genestealer claws and talons.",
+      "competitive_ready": true
+    },
+    "tyr_raveners": {
+      "name": "Raveners",
+      "classification": "FIXED_MULTI_MODEL",
+      "verified": true,
+      "default_equipment": [
+        "Ravener claws and talons"
+      ],
+      "local_wargear_options": [],
+      "slots": [],
+      "quantity_rules": [],
+      "forbidden_combinations": [],
+      "integration_state": "FIXED_NO_SELECTOR",
+      "audit_note": "Nessuna scelta arma rilevata nel profilo base.",
+      "competitive_ready": true
+    },
+    "tyr_neurolictor": {
+      "name": "Neurolictor",
+      "classification": "FIXED",
+      "verified": true,
+      "default_equipment": [
+        "Piercing claws and talons"
+      ],
+      "local_wargear_options": [],
+      "slots": [],
+      "quantity_rules": [],
+      "forbidden_combinations": [],
+      "integration_state": "FIXED_NO_SELECTOR",
+      "audit_note": "Equipaggiamento fisso.",
+      "competitive_ready": true
+    },
+    "tyr_norn_emissary": {
+      "name": "Norn Emissary",
+      "classification": "FIXED",
+      "verified": true,
+      "default_equipment": [
+        "Psychic Tendril",
+        "Monstrous rending claws",
+        "Monstrous scything talons"
+      ],
+      "local_wargear_options": [],
+      "slots": [],
+      "quantity_rules": [],
+      "forbidden_combinations": [],
+      "integration_state": "FIXED_NO_SELECTOR",
+      "audit_note": "Nessuna scelta equipaggiamento rilevata nel controllo corrente.",
+      "competitive_ready": true
+    },
+    "tyr_norn_assimilator": {
+      "name": "Norn Assimilator",
+      "classification": "FIXED",
+      "verified": true,
+      "default_equipment": [
+        "Toxinjector harpoon",
+        "Monstrous scything talons"
+      ],
+      "local_wargear_options": [],
+      "slots": [],
+      "quantity_rules": [],
+      "forbidden_combinations": [],
+      "integration_state": "FIXED_NO_SELECTOR",
+      "audit_note": "Equipaggiamento fisso multiplo.",
+      "competitive_ready": true
+    },
+    "tyr_hyperadapted_raveners": {
+      "name": "Hyperadapted Raveners",
+      "classification": "FIXED_SPECIAL_COMPOSITION",
+      "verified": true,
+      "default_equipment": [
+        "Prime claws and talons",
+        "Ravener claws and talons"
+      ],
+      "local_wargear_options": [],
+      "slots": [],
+      "quantity_rules": [],
+      "forbidden_combinations": [],
+      "integration_state": "READY_EXPLICIT",
+      "audit_note": "Ravener Prime + Raveners; variante Ravener con Venom bolt da gestire per modello.",
+      "fixed_equipment_by_model": [
+        {
+          "model": "Ravener Prime",
+          "count": 1,
+          "equipment": [
+            "Prime claws and talons"
+          ]
+        },
+        {
+          "model": "Ravener",
+          "count": 3,
+          "equipment": [
+            "Ravener heavy claws and talons"
+          ]
+        },
+        {
+          "model": "Ravener",
+          "count": 1,
+          "equipment": [
+            "Venom bolt",
+            "Ravener heavy claws and talons"
+          ]
+        }
+      ],
+      "selector_required": false,
+      "competitive_ready": true
+    },
+    "tyr_tyranid_prime_with_lash_whip": {
+      "name": "Tyranid Prime with Lash Whip",
+      "classification": "FIXED",
+      "verified": true,
+      "default_equipment": [
+        "Rending claw",
+        "Lash whip",
+        "Scything talons"
+      ],
+      "local_wargear_options": [],
+      "slots": [],
+      "quantity_rules": [],
+      "forbidden_combinations": [],
+      "integration_state": "FIXED_NO_SELECTOR",
+      "audit_note": "Nessuna opzione wargear. Equipaggiato con rending claw + lash whip + scything talons.",
+      "competitive_ready": true
+    },
+    "tyr_the_red_terror": {
+      "name": "The Red Terror",
+      "classification": "FIXED",
+      "verified": true,
+      "default_equipment": [
+        "Scything talons",
+        "Gaping maw"
+      ],
+      "local_wargear_options": [],
+      "slots": [],
+      "quantity_rules": [],
+      "forbidden_combinations": [],
+      "integration_state": "FIXED_NO_SELECTOR",
+      "audit_note": "11e Epic Hero: equipaggiamento fisso scything talons + gaping maw; WARGEAR OPTIONS: None. Nessun selettore arma.",
+      "competitive_ready": true
+    }
+  },
+  "attached_unit_rules": {
+    "effect_types": [
+      "LEADER_TO_ATTACHED_UNIT",
+      "BODYGUARD_TO_LEADER",
+      "SELF_ONLY",
+      "AURA",
+      "UNIT_WIDE",
+      "KEYWORD_FILTERED"
+    ],
+    "leaders": {
+      "tyr_broodlord": {
+        "name": "Broodlord",
+        "bodyguards": [
+          {
+            "unit_id": "tyr_genestealers",
+            "name": "Genestealers"
+          }
+        ],
+        "effects": [
+          {
+            "ability": "Vicious Insight",
+            "type": "LEADER_TO_ATTACHED_UNIT",
+            "active_when": "LEADING",
+            "target": "WEAPONS_EQUIPPED_BY_MODELS_IN_ATTACHED_UNIT",
+            "grants": [
+              "DEVASTATING WOUNDS"
+            ],
+            "summary_it": "Finché il Broodlord guida l'unità, le armi dei modelli dell'Attached Unit hanno DEVASTATING WOUNDS."
+          },
+          {
+            "ability": "Hypnotic Gaze",
+            "type": "SELF_ONLY",
+            "active_when": "ALWAYS",
+            "target": "ENEMY_WITHIN_ENGAGEMENT_RANGE_OF_LEADER_MODEL",
+            "summary_it": "Effetto personale del Broodlord; non viene trasferito ai Genestealers."
+          }
+        ]
+      },
+      "tyr_hive_tyrant": {
+        "name": "Hive Tyrant",
+        "bodyguards": [
+          {
+            "unit_id": "tyr_tyrant_guard",
+            "name": "Tyrant Guard"
+          }
+        ],
+        "effects": [
+          {
+            "ability": "Onslaught",
+            "type": "AURA",
+            "active_when": "ALWAYS",
+            "target": "FRIENDLY_TYRANIDS_UNIT_WITHIN_6",
+            "grants_to_ranged_weapons": [
+              "ASSAULT",
+              "LETHAL HITS"
+            ],
+            "summary_it": "Aura: le armi da tiro delle unità TYRANIDS amiche entro 6\" ottengono ASSAULT e LETHAL HITS."
+          },
+          {
+            "ability": "Will of the Hive Mind",
+            "type": "SELF_ONLY",
+            "active_when": "ALWAYS",
+            "summary_it": "Riduzione CP per Stratagemma su unità TYRANIDS amica entro 12\"; non è un bonus trasferito dalla relazione Leader."
+          }
+        ]
+      },
+      "tyr_neurotyrant": {
+        "name": "Neurotyrant",
+        "bodyguards": [
+          {
+            "unit_id": "tyr_neurogaunts",
+            "name": "Neurogaunts"
+          },
+          {
+            "unit_id": "tyr_tyrant_guard",
+            "name": "Tyrant Guard"
+          },
+          {
+            "unit_id": "tyr_zoanthropes",
+            "name": "Zoanthropes"
+          }
+        ],
+        "effects": [
+          {
+            "ability": "Node Lash",
+            "type": "LEADER_TO_ATTACHED_UNIT",
+            "active_when": "LEADING",
+            "target": "MODELS_IN_ATTACHED_UNIT",
+            "modifiers": [
+              "HIT_ROLL:+1",
+              "WOUND_ROLL:+1_IF_TARGET_BATTLE_SHOCKED"
+            ],
+            "summary_it": "Finché guida l'unità: +1 a colpire; contro bersagli Battle-shocked anche +1 a ferire."
+          },
+          {
+            "ability": "Psychic Terror",
+            "type": "SELF_ONLY",
+            "active_when": "ON_BATTLEFIELD",
+            "summary_it": "Effetto globale legato a Shadow in the Warp; non deriva dall'Attached Unit."
+          }
+        ]
+      },
+      "tyr_the_swarmlord": {
+        "name": "The Swarmlord",
+        "bodyguards": [
+          {
+            "unit_id": "tyr_tyrant_guard",
+            "name": "Tyrant Guard"
+          }
+        ],
+        "effects": [
+          {
+            "ability": "Domination of the Hive Mind",
+            "type": "AURA",
+            "active_when": "ALWAYS",
+            "target": "FRIENDLY_TYRANIDS_UNIT_WITHIN_9",
+            "summary_it": "Aura: unità TYRANIDS amiche entro 9\" sono entro Synapse Range."
+          }
+        ]
+      },
+      "tyr_old_one_eye": {
+        "name": "Old One Eye",
+        "bodyguards": [
+          {
+            "unit_id": "tyr_carnifexes",
+            "name": "Carnifexes"
+          }
+        ],
+        "effects": [
+          {
+            "ability": "Alpha Leader",
+            "type": "LEADER_TO_ATTACHED_UNIT",
+            "active_when": "LEADING",
+            "target": "MODELS_IN_ATTACHED_UNIT",
+            "modifiers": [
+              "REROLL_HIT_ROLL"
+            ],
+            "summary_it": "Finché guida Carnifexes, ogni modello dell'Attached Unit può ritirare il tiro per colpire."
+          },
+          {
+            "ability": "Unstoppable Monster",
+            "type": "SELF_ONLY",
+            "active_when": "ALWAYS",
+            "summary_it": "Rigenerazione personale di Old One Eye; non si trasferisce ai Carnifexes."
+          }
+        ]
+      },
+      "tyr_winged_tyranid_prime": {
+        "name": "Winged Tyranid Prime",
+        "bodyguards": [
+          {
+            "unit_id": "tyr_gargoyles",
+            "name": "Gargoyles"
+          },
+          {
+            "unit_id": "tyr_warriors_melee",
+            "name": "Tyranid Warriors With Melee Bio-weapons"
+          },
+          {
+            "unit_id": "tyr_warriors_ranged",
+            "name": "Tyranid Warriors With Ranged Bio-weapons"
+          }
+        ],
+        "effects": [
+          {
+            "ability": "Alpha Warrior",
+            "type": "LEADER_TO_ATTACHED_UNIT",
+            "active_when": "LEADING",
+            "target": "WEAPONS_EQUIPPED_BY_MODELS_IN_ATTACHED_UNIT",
+            "grants": [
+              "SUSTAINED HITS 1"
+            ],
+            "summary_it": "Finché guida l'unità, le armi dei modelli dell'Attached Unit hanno SUSTAINED HITS 1."
+          },
+          {
+            "ability": "Death Blow",
+            "type": "SELF_ONLY",
+            "active_when": "ON_DESTROYED_BY_MELEE",
+            "summary_it": "Effetto personale del Winged Tyranid Prime."
+          }
+        ]
+      },
+      "tyr_tyranid_prime_with_lash_whip": {
+        "name": "Tyranid Prime with Lash Whip",
+        "bodyguards": [
+          {
+            "unit_id": "tyr_hormagaunts",
+            "name": "Hormagaunts"
+          },
+          {
+            "unit_id": "tyr_termagants",
+            "name": "Termagants"
+          },
+          {
+            "unit_id": "tyr_warriors_melee",
+            "name": "Tyranid Warriors With Melee Bio-weapons"
+          },
+          {
+            "unit_id": "tyr_warriors_ranged",
+            "name": "Tyranid Warriors With Ranged Bio-weapons"
+          }
+        ],
+        "effects": [
+          {
+            "ability": "Alpha Warrior",
+            "type": "UNIT_WIDE",
+            "active_when": "IN_UNIT",
+            "target": "WEAPONS_EQUIPPED_BY_MODELS_IN_THIS_MODELS_UNIT",
+            "grants": [
+              "SUSTAINED HITS 1"
+            ],
+            "summary_it": "Le armi dei modelli nell'unità del Prime hanno SUSTAINED HITS 1."
+          },
+          {
+            "ability": "Aggressive Leader-beast",
+            "type": "UNIT_WIDE",
+            "active_when": "MODEL_IN_UNIT_DESTROYED_BY_ENEMY_SHOOTING",
+            "summary_it": "Se un modello dell'unità viene distrutto dal tiro nemico, l'unità può fare un surge move fino a D6\"."
+          }
+        ]
+      },
+      "tyr_hyperadapted_raveners": {
+        "name": "Hyperadapted Raveners",
+        "bodyguards": [
+          {
+            "unit_id": "tyr_raveners",
+            "name": "Raveners"
+          }
+        ],
+        "effects": [
+          {
+            "ability": "Alpha Invader",
+            "type": "UNIT_WIDE",
+            "active_when": "IN_UNIT",
+            "target": "WEAPONS_EQUIPPED_BY_MODELS_IN_UNIT",
+            "grants": [
+              "SUSTAINED HITS 1"
+            ],
+            "summary_it": "Le armi dei modelli nell'unità hanno SUSTAINED HITS 1."
+          }
+        ]
+      }
+    },
+    "bodyguard_effects": {
+      "tyr_tyrant_guard": {
+        "name": "Tyrant Guard",
+        "effects": [
+          {
+            "ability": "Guardian Organism",
+            "type": "BODYGUARD_TO_LEADER",
+            "active_when": "LEADING",
+            "target": "CHARACTER_MODEL_LEADING_THIS_UNIT",
+            "grants": [
+              "FEEL NO PAIN 5+"
+            ],
+            "summary_it": "Il CHARACTER che guida i Tyrant Guard ottiene FEEL NO PAIN 5+."
+          }
+        ]
+      },
+      "tyr_genestealers": {
+        "name": "Genestealers",
+        "effects": [
+          {
+            "ability": "Vanguard Predator",
+            "type": "UNIT_WIDE",
+            "active_when": "ALWAYS",
+            "target": "MODELS_IN_ATTACHED_UNIT",
+            "summary_it": "Ogni modello dell'Attached Unit ritira i tiri per colpire pari a 1; contro bersagli entro un obiettivo ritira anche i tiri per ferire pari a 1."
+          }
+        ]
+      },
+      "tyr_carnifexes": {
+        "name": "Carnifexes",
+        "effects": [
+          {
+            "ability": "Blistering Assault",
+            "type": "UNIT_WIDE",
+            "active_when": "WHEN_WOUNDED_BY_ENEMY_SHOOTING",
+            "target": "ATTACHED_UNIT",
+            "summary_it": "Se un modello dell'unità perde una ferita a causa del tiro nemico, l'Attached Unit può effettuare un surge move fino a D6+2\"."
+          }
+        ]
+      },
+      "tyr_warriors_ranged": {
+        "name": "Tyranid Warriors With Ranged Bio-weapons",
+        "effects": [
+          {
+            "ability": "Adaptable Predators",
+            "type": "UNIT_WIDE",
+            "active_when": "ALWAYS",
+            "target": "ATTACHED_UNIT",
+            "summary_it": "L'Attached Unit può sparare e dichiarare una carica in un turno in cui ha Ripiegato."
+          }
+        ]
+      },
+      "tyr_warriors_melee": {
+        "name": "Tyranid Warriors With Melee Bio-weapons",
+        "effects": [
+          {
+            "ability": "Adaptive Instincts",
+            "type": "UNIT_WIDE",
+            "active_when": "FIGHT_PHASE",
+            "target": "ATTACHED_UNIT",
+            "summary_it": "Una volta per turno per unità, in Combattimento: +1 Forza agli attacchi da mischia dell'unità oppure +1 Resistenza all'unità, secondo la regola."
+          }
+        ]
+      },
+      "tyr_termagants": {
+        "name": "Termagants",
+        "effects": [
+          {
+            "ability": "Skulking Horrors",
+            "type": "UNIT_WIDE",
+            "active_when": "OPPONENT_MOVEMENT_PHASE",
+            "target": "ATTACHED_UNIT",
+            "summary_it": "Quando un nemico termina un movimento entro 8\" e l'unità non è in Engagement Range, l'Attached Unit può effettuare un Movimento Normale fino a D6\"."
+          }
+        ]
+      },
+      "tyr_raveners": {
+        "name": "Raveners",
+        "effects": [
+          {
+            "ability": "Death from Below",
+            "type": "UNIT_WIDE",
+            "active_when": "END_OPPONENT_TURN",
+            "target": "ATTACHED_UNIT",
+            "summary_it": "Alla fine del turno avversario, se non è in Engagement Range, l'Attached Unit può essere rimossa dal campo e collocata nelle Riserve Strategiche."
+          }
+        ]
+      }
+    }
+  },
+  "source_components": {
+    "loadout_rules": {
+      "source_file": "tyranids_listbuilder_loadout_rules_FINAL_52(1).json",
+      "source_schema_version": 1,
+      "completion": {
+        "total_units": 52,
+        "competitive_ready": 52,
+        "pending": [],
+        "status": "52_OF_52_LOADOUT_RULES_READY_FOR_ENGINE_INTEGRATION"
+      }
+    },
+    "attached_unit_rules": {
+      "source_file": "tyranids_attached_unit_rules_V2_FINAL(1).json",
+      "source_schema_version": 1,
+      "completion": {
+        "leader_relations_verified": 8,
+        "mode": "FAIL_CLOSED",
+        "status": "V2_ATTACHED_UNIT_RELATIONS_READY"
+      }
+    }
+  },
+  "separation_policy": {
+    "belongs_here": [
+      "legal loadout constraints",
+      "slot/quantity/exclusive-choice validation",
+      "attached-unit relationships and bodyguard effects",
+      "competitive List Builder validation metadata"
+    ],
+    "belongs_in_game_database": [
+      "unit profiles",
+      "points",
+      "weapon profiles",
+      "unit and weapon keywords",
+      "keyword explanations",
+      "datasheet abilities and explanations",
+      "Leader/wargear source game data",
+      "detachments/enhancements/stratagems game data"
+    ]
+  },
+  "release_gate": {
+    "source_merge": "PASS",
+    "loadout_records": 52,
+    "unit_id_crosscheck": "PASS",
+    "dual_database_integrity": "PASS",
+    "runtime_structural_audit": "PASS",
+    "production_installation": "READY_AFTER_COPYING_FINAL_RUNTIME_FILES_AND_ASSETS"
+  },
+  "integrity_checks": {
+    "game_unit_count": 52,
+    "game_unique_unit_ids": 52,
+    "loadout_rule_records": 52,
+    "attached_leader_records": 8,
+    "loadout_ids_missing_from_game": [],
+    "attached_leader_ids_missing_from_game": []
+  }
+}
