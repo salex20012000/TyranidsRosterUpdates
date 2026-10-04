@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "target_edition": 11,
+  "pages": [
+    "https://www.warhammer-community.com/api/search/downloads/?monitor_language=english",
+    "https://www.warhammer-community.com/api/search/downloads/?monitor_language=italian"
+  ],
+  "document_terms": [
+    "tyranid",
+    "tiranid",
+    "munitorum",
+    "balance",
+    "bilanciamento",
+    "dataslate",
+    "errata",
+    "faq",
+    "rules commentary",
+    "commento alle regole",
+    "core rules",
+    "regole base",
+    "universal rules",
+    "aggiornamenti alle regole"
+  ],
+  "allowed_hosts": [
+    "www.warhammer-community.com",
+    "warhammer-community.com",
+    "assets.warhammer-community.com"
+  ],
+  "max_documents": 60,
+  "max_bytes": 100000000,
+  "publication_pages": [
+    "https://www.warhammer-community.com/en-gb/downloads/warhammer-40000/"
+  ]
+}
