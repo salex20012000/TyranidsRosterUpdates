@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "target_edition": 11,
+  "items": [],
+  "last_check": "2026-10-04T09:27:19+00:00",
+  "health": "ok",
+  "checks": [
+    {
+      "url": "https://www.warhammer-community.com/api/search/downloads/?monitor_language=english",
+      "status": "ok",
+      "baseline": true,
+      "documents_found": 3
+    },
+    {
+      "url": "https://www.warhammer-community.com/api/search/downloads/?monitor_language=italian",
+      "status": "ok",
+      "baseline": true,
+      "documents_found": 3
+    },
+    {
+      "url": "https://www.warhammer-community.com/en-gb/downloads/warhammer-40000/",
+      "status": "ok",
+      "scope": "indicatore Munitorum",
+      "publication_marker": "[[\"http://mfm.warhammer-community.com/\", \"updated 30/09/2026\"]]"
+    },
+    {
+      "url": "https://assets.warhammer-community.com/eng_01-06_warhammer40k_new40k_core_rules-was6fbu1ix-hfewhmxyiy.pdf",
+      "status": "ok",
+      "edition": null
+    },
+    {
+      "url": "https://assets.warhammer-community.com/eng_wh40k_core&key_universal_rules_updates-lu3grocned-rphh78bl6k.pdf",
+      "status": "ok",
+      "edition": null
+    },
+    {
+      "url": "https://assets.warhammer-community.com/eng_wh40k_faction_pack_tyranids-kbkk66qiwc-nh0khbkupv.pdf",
+      "status": "ok",
+      "edition": null
+    },
+    {
+      "url": "https://assets.warhammer-community.com/ita_01-06_warhammer40k_new40k_core_rules-esunxoof60-fgsxiz0hza.pdf",
+      "status": "ok",
+      "edition": null
+    },
+    {
+      "url": "https://assets.warhammer-community.com/ita_wh40k_core&key_universal_rules_updates-kox4axxcpb-u0hfxvis8q.pdf",
+      "status": "ok",
+      "edition": null
+    },
+    {
+      "url": "https://assets.warhammer-community.com/ita_wh40k_faction_pack_tyranids-hdhbeml6hr-mrme0hgpng.pdf",
+      "status": "ok",
+      "edition": null
+    }
+  ]
+}
