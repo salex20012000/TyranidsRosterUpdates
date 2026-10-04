@@ -1,8 +1,8 @@
 {
   "database_name": "Tyranids Game Data 11E",
   "schema_version": 5,
-  "content_version": "V5-AUDITED-FINAL-DUAL-DB",
-  "created_at": "2026-08-20",
+  "content_version": "V5.1-GW-MFM-V1.5-2026-10-04",
+  "created_at": "2026-10-04",
   "scope": "DATABASE_ONLY",
   "screen_changes": false,
   "source_priority": [
@@ -57,7 +57,7 @@
         {
           "models": 1,
           "points": 185,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20"
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         }
       ],
       "ranged_weapons": [
@@ -182,10 +182,10 @@
         "gw_faction_pack_crosscheck": "PATCHES_CAPTURED_DIRECT_GW",
         "verification_status": "MIXED_GW_PATCH_BSDATA_BASE",
         "fallback_10e_used": false,
-        "last_reviewed": "2026-08-20",
+        "last_reviewed": "2026-10-04",
         "gw_patch_count": 1,
         "bsdata_11e_crosscheck": "STRUCTURED_RECORD_HYDRATED",
-        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.2, supplied PDF 2026-08-20",
+        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.5, supplied PDF 2026-10-04",
         "points_recheck_required": false,
         "structure_source": "New Recruit 11e direct record fa68-fcb9-38c-cd0f",
         "structure_reviewed": "2026-08-20"
@@ -263,7 +263,7 @@
         {
           "models": 1,
           "points": 195,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20"
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         }
       ],
       "ranged_weapons": [
@@ -396,7 +396,7 @@
         "bsdata_11e_crosscheck": "CHECKED",
         "fallback_10e_used": false,
         "verification_status": "V2_PILOT_VERIFIED_GW_WAHAPEDIA",
-        "last_reviewed": "2026-08-20",
+        "last_reviewed": "2026-10-04",
         "bsdata_notes": [
           "Profile confirmed: M 8, T 10, Sv 2+, W 10, Ld 7+, OC 3, Invulnerable 4+.",
           "Points confirmed: 195.",
@@ -406,7 +406,7 @@
         "catalog_presence": "CONFIRMED_BSDATA_11E",
         "gw_faction_pack_crosscheck": "PATCHES_CAPTURED_DIRECT_GW",
         "gw_patch_count": 2,
-        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.2, supplied PDF 2026-08-20",
+        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.5, supplied PDF 2026-10-04",
         "points_recheck_required": false
       },
       "rule_refs": {
@@ -476,8 +476,8 @@
       "points": [
         {
           "models": 1,
-          "points": 160,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20"
+          "points": 150,
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         }
       ],
       "ranged_weapons": [
@@ -582,8 +582,8 @@
         "gw_faction_pack_crosscheck": "PENDING_OR_NOT_APPLICABLE",
         "verification_status": "DETAIL_RECORD_PENDING",
         "fallback_10e_used": false,
-        "last_reviewed": "2026-08-20",
-        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.2, supplied PDF 2026-08-20",
+        "last_reviewed": "2026-10-04",
+        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.5, supplied PDF 2026-10-04",
         "points_recheck_required": false,
         "structure_source": "New Recruit / BSData 11e direct record",
         "structure_reviewed": "2026-08-20"
@@ -626,7 +626,7 @@
         {
           "models": 1,
           "points": 210,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20"
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         }
       ],
       "ranged_weapons": [
@@ -732,9 +732,9 @@
         "gw_faction_pack_crosscheck": "PATCHES_CAPTURED_DIRECT_GW",
         "verification_status": "GW_PATCH_VERIFIED_BASE_RECORD_PENDING",
         "fallback_10e_used": false,
-        "last_reviewed": "2026-08-20",
+        "last_reviewed": "2026-10-04",
         "gw_patch_count": 1,
-        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.2, supplied PDF 2026-08-20",
+        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.5, supplied PDF 2026-10-04",
         "points_recheck_required": false,
         "structure_source": "New Recruit / BSData 11e direct record",
         "structure_reviewed": "2026-08-20"
@@ -789,7 +789,7 @@
         {
           "models": 1,
           "points": 80,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20"
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         }
       ],
       "ranged_weapons": [],
@@ -872,9 +872,9 @@
         "gw_faction_pack_crosscheck": "PATCHES_CAPTURED_DIRECT_GW",
         "verification_status": "GW_PATCH_VERIFIED_BASE_RECORD_PENDING",
         "fallback_10e_used": false,
-        "last_reviewed": "2026-08-20",
+        "last_reviewed": "2026-10-04",
         "gw_patch_count": 2,
-        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.2, supplied PDF 2026-08-20",
+        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.5, supplied PDF 2026-10-04",
         "points_recheck_required": false,
         "structure_source": "New Recruit / BSData 11e direct record",
         "structure_reviewed": "2026-08-20"
@@ -933,8 +933,8 @@
       "points": [
         {
           "models": 1,
-          "points": 140,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20"
+          "points": 130,
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         }
       ],
       "ranged_weapons": [],
@@ -1019,8 +1019,8 @@
         "gw_faction_pack_crosscheck": "PENDING_OR_NOT_APPLICABLE",
         "verification_status": "DETAIL_RECORD_PENDING",
         "fallback_10e_used": false,
-        "last_reviewed": "2026-08-20",
-        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.2, supplied PDF 2026-08-20",
+        "last_reviewed": "2026-10-04",
+        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.5, supplied PDF 2026-10-04",
         "points_recheck_required": false,
         "structure_source": "New Recruit / BSData 11e direct record",
         "structure_reviewed": "2026-08-20"
@@ -1072,11 +1072,13 @@
       "points": [
         {
           "models": 3,
-          "points": 60
+          "points": 60,
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         },
         {
           "models": 6,
-          "points": 120
+          "points": 120,
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         }
       ],
       "ranged_weapons": [
@@ -1221,9 +1223,11 @@
         "bsdata_11e_crosscheck": "PENDING_DETAILED_RECORD_CHECK",
         "fallback_10e_used": false,
         "verification_status": "V2_PILOT_VERIFIED_GW_WAHAPEDIA",
-        "last_reviewed": "2026-08-20",
+        "last_reviewed": "2026-10-04",
         "bsdata_target_id": "a125-b6fb-2945-56a",
-        "catalog_presence": "CONFIRMED_BSDATA_11E"
+        "catalog_presence": "CONFIRMED_BSDATA_11E",
+        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.5, supplied PDF 2026-10-04",
+        "points_recheck_required": false
       },
       "rule_refs": {
         "core": [],
@@ -1286,11 +1290,13 @@
       "points": [
         {
           "models": 3,
-          "points": 75
+          "points": 75,
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         },
         {
           "models": 6,
-          "points": 150
+          "points": 150,
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         }
       ],
       "ranged_weapons": [],
@@ -1359,9 +1365,11 @@
         "bsdata_11e_crosscheck": "PENDING_DETAILED_RECORD_CHECK",
         "fallback_10e_used": false,
         "verification_status": "V2_PILOT_VERIFIED_GW_WAHAPEDIA",
-        "last_reviewed": "2026-08-20",
+        "last_reviewed": "2026-10-04",
         "bsdata_target_id": "5815-871c-9260-287a",
-        "catalog_presence": "CONFIRMED_BSDATA_11E"
+        "catalog_presence": "CONFIRMED_BSDATA_11E",
+        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.5, supplied PDF 2026-10-04",
+        "points_recheck_required": false
       },
       "rule_refs": {
         "core": [],
@@ -1419,13 +1427,13 @@
       "points": [
         {
           "models": 10,
-          "points": 60,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20"
+          "points": 55,
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         },
         {
           "models": 20,
           "points": 110,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20"
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         }
       ],
       "ranged_weapons": [
@@ -1598,7 +1606,7 @@
         "bsdata_11e_crosscheck": "PARTIAL_CHECKED",
         "fallback_10e_used": false,
         "verification_status": "V2_PILOT_VERIFIED_GW_WAHAPEDIA",
-        "last_reviewed": "2026-08-20",
+        "last_reviewed": "2026-10-04",
         "bsdata_notes": [
           "Profile confirmed: M 6, T 3, Sv 5+, W 1, Ld 8+, OC 2.",
           "Unit size structure 10-20 confirmed.",
@@ -1606,7 +1614,7 @@
         ],
         "bsdata_target_id": "359c-db2c-681a-8d62",
         "catalog_presence": "CONFIRMED_BSDATA_11E",
-        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.2, supplied PDF 2026-08-20",
+        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.5, supplied PDF 2026-10-04",
         "points_recheck_required": false
       },
       "rule_refs": {
@@ -1658,18 +1666,24 @@
         "Sv": "5+",
         "W": 1,
         "Ld": "8+",
-        "OC": 2
+        "OC": 2,
+        "movement": "10\"",
+        "toughness": 3,
+        "save": "5+",
+        "wounds": 1,
+        "leadership": "8+",
+        "objective_control": 2
       },
       "points": [
         {
           "models": 10,
           "points": 70,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20"
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         },
         {
           "models": 20,
           "points": 120,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20"
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         }
       ],
       "ranged_weapons": [],
@@ -1737,8 +1751,8 @@
         "gw_faction_pack_crosscheck": "PENDING_OR_NOT_APPLICABLE",
         "verification_status": "DETAIL_RECORD_PENDING",
         "fallback_10e_used": false,
-        "last_reviewed": "2026-08-20",
-        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.2, supplied PDF 2026-08-20",
+        "last_reviewed": "2026-10-04",
+        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.5, supplied PDF 2026-10-04",
         "points_recheck_required": false,
         "structure_source": "User supplied unified Tyranids datasheet PDF",
         "structure_source_page": 17,
@@ -1773,18 +1787,24 @@
         "Sv": "6+",
         "W": 1,
         "Ld": "8+",
-        "OC": 2
+        "OC": 2,
+        "movement": "12\"",
+        "toughness": 3,
+        "save": "6+",
+        "wounds": 1,
+        "leadership": "8+",
+        "objective_control": 2
       },
       "points": [
         {
           "models": 10,
-          "points": 80,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20"
+          "points": 75,
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         },
         {
           "models": 20,
-          "points": 155,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20"
+          "points": 150,
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         }
       ],
       "ranged_weapons": [
@@ -1862,8 +1882,8 @@
         "gw_faction_pack_crosscheck": "PENDING_OR_NOT_APPLICABLE",
         "verification_status": "DETAIL_RECORD_PENDING",
         "fallback_10e_used": false,
-        "last_reviewed": "2026-08-20",
-        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.2, supplied PDF 2026-08-20",
+        "last_reviewed": "2026-10-04",
+        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.5, supplied PDF 2026-10-04",
         "points_recheck_required": false,
         "structure_source": "User supplied unified Tyranids datasheet PDF, direct page image",
         "structure_reviewed": "2026-08-20"
@@ -1901,13 +1921,19 @@
         "Sv": "3+",
         "W": 14,
         "Ld": "8+",
-        "OC": 4
+        "OC": 4,
+        "movement": "8\"",
+        "toughness": 11,
+        "save": "3+",
+        "wounds": 14,
+        "leadership": "8+",
+        "objective_control": 4
       },
       "points": [
         {
           "models": 1,
           "points": 120,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20"
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         }
       ],
       "ranged_weapons": [
@@ -1989,8 +2015,8 @@
         "gw_faction_pack_crosscheck": "PENDING_OR_NOT_APPLICABLE",
         "verification_status": "DETAIL_RECORD_PENDING",
         "fallback_10e_used": false,
-        "last_reviewed": "2026-08-20",
-        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.2, supplied PDF 2026-08-20",
+        "last_reviewed": "2026-10-04",
+        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.5, supplied PDF 2026-10-04",
         "points_recheck_required": false,
         "structure_source": "New Recruit / BSData 11e direct record",
         "structure_reviewed": "2026-08-20"
@@ -2035,12 +2061,12 @@
         {
           "models": 3,
           "points": 80,
-          "status": "11E_CURRENT_CROSSCHECK"
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         },
         {
           "models": 6,
           "points": 170,
-          "status": "11E_CURRENT_CROSSCHECK"
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         }
       ],
       "ranged_weapons": [],
@@ -2128,8 +2154,8 @@
         "gw_faction_pack_crosscheck": "PENDING_OR_NOT_APPLICABLE",
         "verification_status": "CONFIRMED_11E_CROSSCHECK_BATCH01",
         "fallback_10e_used": false,
-        "last_reviewed": "2026-09-17",
-        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.2, supplied PDF 2026-08-20",
+        "last_reviewed": "2026-10-04",
+        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.5, supplied PDF 2026-10-04",
         "points_recheck_required": false,
         "structure_source": "User supplied unified Tyranids datasheet PDF",
         "structure_source_page": "Tyrant Guard datasheet",
@@ -2171,7 +2197,7 @@
         {
           "models": 1,
           "points": 65,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20"
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         }
       ],
       "ranged_weapons": [],
@@ -2253,9 +2279,9 @@
         "gw_faction_pack_crosscheck": "PENDING_OR_NOT_APPLICABLE",
         "verification_status": "BSDATA_BASE_HYDRATED_GW_AUDIT_PENDING",
         "fallback_10e_used": false,
-        "last_reviewed": "2026-08-20",
+        "last_reviewed": "2026-10-04",
         "bsdata_11e_crosscheck": "STRUCTURED_RECORD_HYDRATED",
-        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.2, supplied PDF 2026-08-20",
+        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.5, supplied PDF 2026-10-04",
         "points_recheck_required": false
       },
       "rc1_record_status": "DETAILED_RECORD_PRESENT",
@@ -2295,13 +2321,19 @@
         "Sv": "4+",
         "W": 6,
         "Ld": "7+",
-        "OC": 1
+        "OC": 1,
+        "movement": "8\"",
+        "toughness": 6,
+        "save": "4+",
+        "wounds": 6,
+        "leadership": "7+",
+        "objective_control": 1
       },
       "points": [
         {
           "models": 1,
           "points": 60,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20"
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         }
       ],
       "ranged_weapons": [],
@@ -2363,8 +2395,8 @@
         "gw_faction_pack_crosscheck": "PENDING_OR_NOT_APPLICABLE",
         "verification_status": "DETAIL_RECORD_PENDING",
         "fallback_10e_used": false,
-        "last_reviewed": "2026-08-20",
-        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.2, supplied PDF 2026-08-20",
+        "last_reviewed": "2026-10-04",
+        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.5, supplied PDF 2026-10-04",
         "points_recheck_required": false,
         "structure_source": "New Recruit / BSData 11e direct record",
         "structure_reviewed": "2026-08-20"
@@ -2403,13 +2435,20 @@
         "W": 7,
         "Ld": "7+",
         "OC": 1,
-        "InSv": "4+"
+        "InSv": "4+",
+        "movement": "8\"",
+        "toughness": 6,
+        "save": "3+",
+        "wounds": 7,
+        "leadership": "7+",
+        "objective_control": 1,
+        "invulnerable_save": "4+"
       },
       "points": [
         {
           "models": 1,
           "points": 80,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20"
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         }
       ],
       "ranged_weapons": [],
@@ -2478,8 +2517,8 @@
         "gw_faction_pack_crosscheck": "PENDING_OR_NOT_APPLICABLE",
         "verification_status": "DETAIL_RECORD_PENDING",
         "fallback_10e_used": false,
-        "last_reviewed": "2026-08-20",
-        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.2, supplied PDF 2026-08-20",
+        "last_reviewed": "2026-10-04",
+        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.5, supplied PDF 2026-10-04",
         "points_recheck_required": false,
         "structure_source": "New Recruit / BSData 11e direct record",
         "structure_reviewed": "2026-08-20"
@@ -2518,19 +2557,26 @@
         "W": 14,
         "Ld": "7+",
         "OC": 4,
-        "InSv": "4+"
+        "InSv": "4+",
+        "movement": "8\"",
+        "toughness": 11,
+        "save": "3+",
+        "wounds": 14,
+        "leadership": "7+",
+        "objective_control": 4,
+        "invulnerable_save": "4+"
       },
       "points": [
         {
           "models": 1,
-          "points": 190,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20",
+          "points": 180,
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04",
           "copy_tier": "1st_to_2nd"
         },
         {
           "models": 1,
-          "points": 200,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20",
+          "points": 190,
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04",
           "copy_tier": "3rd_and_later"
         }
       ],
@@ -2620,8 +2666,8 @@
         "gw_faction_pack_crosscheck": "PENDING_OR_NOT_APPLICABLE",
         "verification_status": "DETAIL_RECORD_PENDING",
         "fallback_10e_used": false,
-        "last_reviewed": "2026-08-20",
-        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.2, supplied PDF 2026-08-20",
+        "last_reviewed": "2026-10-04",
+        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.5, supplied PDF 2026-10-04",
         "points_recheck_required": false,
         "audit_note": "Resolved by supplied official GW MFM v1.2: 1st-2nd 190; 3rd+ 200.",
         "structure_source": "New Recruit / BSData 11e direct record",
@@ -2680,8 +2726,8 @@
       "points": [
         {
           "models": 1,
-          "points": 130,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20"
+          "points": 120,
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         }
       ],
       "ranged_weapons": [
@@ -2781,10 +2827,10 @@
         "bsdata_11e_crosscheck": "PENDING_DETAILED_RECORD_CHECK",
         "fallback_10e_used": false,
         "verification_status": "V2_PILOT_VERIFIED_GW_WAHAPEDIA",
-        "last_reviewed": "2026-08-20",
+        "last_reviewed": "2026-10-04",
         "bsdata_target_id": "1ae1-ed96-5100-eda5",
         "catalog_presence": "CONFIRMED_BSDATA_11E",
-        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.2, supplied PDF 2026-08-20",
+        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.5, supplied PDF 2026-10-04",
         "points_recheck_required": false
       },
       "rule_refs": {
@@ -2839,43 +2885,49 @@
         "Sv": "3+",
         "W": 5,
         "Ld": "8+",
-        "OC": 1
+        "OC": 1,
+        "movement": "5\"",
+        "toughness": 6,
+        "save": "3+",
+        "wounds": 5,
+        "leadership": "8+",
+        "objective_control": 1
       },
       "points": [
         {
           "models": 1,
-          "points": 45,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20",
+          "points": 40,
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04",
           "copy_tier": "1st_to_2nd"
         },
         {
           "models": 2,
-          "points": 65,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20",
+          "points": 70,
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04",
           "copy_tier": "1st_to_2nd"
         },
         {
           "models": 3,
-          "points": 95,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20",
+          "points": 100,
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04",
           "copy_tier": "1st_to_2nd"
         },
         {
           "models": 1,
-          "points": 55,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20",
+          "points": 50,
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04",
           "copy_tier": "3rd_and_later"
         },
         {
           "models": 2,
-          "points": 75,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20",
+          "points": 80,
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04",
           "copy_tier": "3rd_and_later"
         },
         {
           "models": 3,
-          "points": 105,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20",
+          "points": 110,
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04",
           "copy_tier": "3rd_and_later"
         }
       ],
@@ -2955,8 +3007,8 @@
         "gw_faction_pack_crosscheck": "PENDING_OR_NOT_APPLICABLE",
         "verification_status": "DETAIL_RECORD_PENDING",
         "fallback_10e_used": false,
-        "last_reviewed": "2026-08-20",
-        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.2, supplied PDF 2026-08-20",
+        "last_reviewed": "2026-10-04",
+        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.5, supplied PDF 2026-10-04",
         "points_recheck_required": false,
         "structure_source": "User supplied unified Tyranids datasheet PDF",
         "structure_source_page": 32,
@@ -2997,19 +3049,25 @@
         "Sv": "3+",
         "W": 14,
         "Ld": "8+",
-        "OC": 4
+        "OC": 4,
+        "movement": "8\"",
+        "toughness": 11,
+        "save": "3+",
+        "wounds": 14,
+        "leadership": "8+",
+        "objective_control": 4
       },
       "points": [
         {
           "models": 1,
           "points": 125,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20",
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04",
           "copy_tier": "1st_to_2nd"
         },
         {
           "models": 1,
           "points": 135,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20",
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04",
           "copy_tier": "3rd_and_later"
         }
       ],
@@ -3105,8 +3163,8 @@
         "gw_faction_pack_crosscheck": "PENDING_OR_NOT_APPLICABLE",
         "verification_status": "CONFIRMED_11E_CROSSCHECK_BATCH01",
         "fallback_10e_used": false,
-        "last_reviewed": "2026-09-17",
-        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.2, supplied PDF 2026-08-20",
+        "last_reviewed": "2026-10-04",
+        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.5, supplied PDF 2026-10-04",
         "points_recheck_required": false,
         "structure_source": "New Recruit / BSData 11e direct record",
         "structure_reviewed": "2026-08-20"
@@ -3146,18 +3204,24 @@
         "Sv": "4+",
         "W": 3,
         "Ld": "8+",
-        "OC": 1
+        "OC": 1,
+        "movement": "6\"",
+        "toughness": 5,
+        "save": "4+",
+        "wounds": 3,
+        "leadership": "8+",
+        "objective_control": 1
       },
       "points": [
         {
           "models": 3,
           "points": 55,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20"
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         },
         {
           "models": 6,
           "points": 110,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20"
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         }
       ],
       "ranged_weapons": [],
@@ -3219,9 +3283,9 @@
         "gw_faction_pack_crosscheck": "PATCHES_CAPTURED_DIRECT_GW",
         "verification_status": "GW_PATCH_VERIFIED_BASE_RECORD_PENDING",
         "fallback_10e_used": false,
-        "last_reviewed": "2026-08-20",
+        "last_reviewed": "2026-10-04",
         "gw_patch_count": 1,
-        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.2, supplied PDF 2026-08-20",
+        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.5, supplied PDF 2026-10-04",
         "points_recheck_required": false,
         "structure_source": "User supplied unified Tyranids datasheet PDF",
         "structure_source_page": "Venomthropes datasheet",
@@ -3281,12 +3345,12 @@
         {
           "models": 3,
           "points": 55,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20"
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         },
         {
           "models": 6,
           "points": 105,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20"
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         }
       ],
       "ranged_weapons": [],
@@ -3352,10 +3416,10 @@
         "bsdata_11e_crosscheck": "PENDING_DETAILED_RECORD_CHECK",
         "fallback_10e_used": false,
         "verification_status": "V2_PILOT_VERIFIED_GW_WAHAPEDIA",
-        "last_reviewed": "2026-08-20",
+        "last_reviewed": "2026-10-04",
         "bsdata_target_id": "9bd8-ac8c-2d3b-79f6",
         "catalog_presence": "CONFIRMED_BSDATA_11E",
-        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.2, supplied PDF 2026-08-20",
+        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.5, supplied PDF 2026-10-04",
         "points_recheck_required": false
       },
       "rule_refs": {
@@ -3399,18 +3463,24 @@
         "Sv": "6+",
         "W": 1,
         "Ld": "8+",
-        "OC": 1
+        "OC": 1,
+        "movement": "6\"",
+        "toughness": 3,
+        "save": "6+",
+        "wounds": 1,
+        "leadership": "8+",
+        "objective_control": 1
       },
       "points": [
         {
           "models": 11,
           "points": 45,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20"
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         },
         {
           "models": 22,
           "points": 90,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20"
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         }
       ],
       "ranged_weapons": [],
@@ -3471,8 +3541,8 @@
         "gw_faction_pack_crosscheck": "PENDING_OR_NOT_APPLICABLE",
         "verification_status": "DETAIL_RECORD_PENDING",
         "fallback_10e_used": false,
-        "last_reviewed": "2026-08-20",
-        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.2, supplied PDF 2026-08-20",
+        "last_reviewed": "2026-10-04",
+        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.5, supplied PDF 2026-10-04",
         "points_recheck_required": false,
         "structure_source": "User supplied unified Tyranids datasheet PDF",
         "structure_source_page": 25,
@@ -3506,18 +3576,25 @@
         "W": 3,
         "Ld": "7+",
         "OC": 1,
-        "InSv": "4+"
+        "InSv": "4+",
+        "movement": "5\"",
+        "toughness": 5,
+        "save": "5+",
+        "wounds": 3,
+        "leadership": "7+",
+        "objective_control": 1,
+        "invulnerable_save": "4+"
       },
       "points": [
         {
           "models": 3,
           "points": 90,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20"
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         },
         {
           "models": 6,
-          "points": 200,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20"
+          "points": 190,
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         }
       ],
       "ranged_weapons": [
@@ -3618,8 +3695,8 @@
         "gw_faction_pack_crosscheck": "PENDING_OR_NOT_APPLICABLE",
         "verification_status": "DETAIL_RECORD_PENDING",
         "fallback_10e_used": false,
-        "last_reviewed": "2026-08-20",
-        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.2, supplied PDF 2026-08-20",
+        "last_reviewed": "2026-10-04",
+        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.5, supplied PDF 2026-10-04",
         "points_recheck_required": false,
         "structure_source": "User supplied unified Tyranids datasheet PDF",
         "structure_source_page": "Zoanthropes datasheet",
@@ -3656,23 +3733,29 @@
         "Sv": "6+",
         "W": 4,
         "Ld": "8+",
-        "OC": 0
+        "OC": 0,
+        "movement": "6\"",
+        "toughness": 2,
+        "save": "6+",
+        "wounds": 4,
+        "leadership": "8+",
+        "objective_control": 0
       },
       "points": [
         {
           "models": 1,
           "points": 30,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20"
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         },
         {
           "models": 2,
           "points": 40,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20"
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         },
         {
           "models": 3,
           "points": 50,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20"
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         }
       ],
       "ranged_weapons": [
@@ -3756,8 +3839,8 @@
         "gw_faction_pack_crosscheck": "PENDING_OR_NOT_APPLICABLE",
         "verification_status": "DETAIL_RECORD_PENDING",
         "fallback_10e_used": false,
-        "last_reviewed": "2026-08-20",
-        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.2, supplied PDF 2026-08-20",
+        "last_reviewed": "2026-10-04",
+        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.5, supplied PDF 2026-10-04",
         "points_recheck_required": false,
         "structure_source": "User supplied unified Tyranids datasheet PDF",
         "structure_source_page": 34,
@@ -3795,13 +3878,19 @@
         "Sv": "4+",
         "W": 5,
         "Ld": "8+",
-        "OC": 1
+        "OC": 1,
+        "movement": "12\"",
+        "toughness": 5,
+        "save": "4+",
+        "wounds": 5,
+        "leadership": "8+",
+        "objective_control": 1
       },
       "points": [
         {
           "models": 1,
-          "points": 70,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20"
+          "points": 65,
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         }
       ],
       "ranged_weapons": [],
@@ -3885,9 +3974,9 @@
         "gw_faction_pack_crosscheck": "PATCHES_CAPTURED_DIRECT_GW",
         "verification_status": "GW_PATCH_VERIFIED_BASE_RECORD_PENDING",
         "fallback_10e_used": false,
-        "last_reviewed": "2026-08-20",
+        "last_reviewed": "2026-10-04",
         "gw_patch_count": 2,
-        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.2, supplied PDF 2026-08-20",
+        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.5, supplied PDF 2026-10-04",
         "points_recheck_required": false,
         "structure_source": "User supplied unified Tyranids datasheet PDF",
         "structure_source_page": 23,
@@ -3937,13 +4026,19 @@
         "Sv": "3+",
         "W": 14,
         "Ld": "8+",
-        "OC": 4
+        "OC": 4,
+        "movement": "10\"",
+        "toughness": 10,
+        "save": "3+",
+        "wounds": 14,
+        "leadership": "8+",
+        "objective_control": 4
       },
       "points": [
         {
           "models": 1,
-          "points": 135,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20"
+          "points": 130,
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         }
       ],
       "ranged_weapons": [],
@@ -4022,9 +4117,9 @@
         "gw_faction_pack_crosscheck": "PATCHES_CAPTURED_DIRECT_GW",
         "verification_status": "GW_PATCH_VERIFIED_BASE_RECORD_PENDING",
         "fallback_10e_used": false,
-        "last_reviewed": "2026-08-20",
+        "last_reviewed": "2026-10-04",
         "gw_patch_count": 1,
-        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.2, supplied PDF 2026-08-20",
+        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.5, supplied PDF 2026-10-04",
         "points_recheck_required": false,
         "structure_source": "User supplied unified Tyranids datasheet PDF",
         "structure_source_page": 22,
@@ -4085,8 +4180,8 @@
       "points": [
         {
           "models": 1,
-          "points": 140,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20"
+          "points": 135,
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         }
       ],
       "ranged_weapons": [
@@ -4173,10 +4268,10 @@
         "bsdata_11e_crosscheck": "PENDING_DETAILED_RECORD_CHECK",
         "fallback_10e_used": false,
         "verification_status": "V2_PILOT_VERIFIED_GW_WAHAPEDIA",
-        "last_reviewed": "2026-08-20",
+        "last_reviewed": "2026-10-04",
         "bsdata_target_id": "56db-d7c-b349-677f",
         "catalog_presence": "CONFIRMED_BSDATA_11E",
-        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.2, supplied PDF 2026-08-20",
+        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.5, supplied PDF 2026-10-04",
         "points_recheck_required": false
       },
       "rule_refs": {
@@ -4219,18 +4314,24 @@
         "Sv": "7+",
         "W": 1,
         "Ld": "8+",
-        "OC": 0
+        "OC": 0,
+        "movement": "4\"",
+        "toughness": 1,
+        "save": "7+",
+        "wounds": 1,
+        "leadership": "8+",
+        "objective_control": 0
       },
       "points": [
         {
           "models": 3,
           "points": 55,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20"
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         },
         {
           "models": 6,
           "points": 110,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20"
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         }
       ],
       "ranged_weapons": [],
@@ -4279,8 +4380,8 @@
         "gw_faction_pack_crosscheck": "PENDING_OR_NOT_APPLICABLE",
         "verification_status": "DETAIL_RECORD_PENDING",
         "fallback_10e_used": false,
-        "last_reviewed": "2026-08-20",
-        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.2, supplied PDF 2026-08-20",
+        "last_reviewed": "2026-10-04",
+        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.5, supplied PDF 2026-10-04",
         "points_recheck_required": false,
         "structure_source": "User supplied unified Tyranids datasheet PDF",
         "structure_source_page": "Spore Mines datasheet",
@@ -4329,14 +4430,14 @@
       "points": [
         {
           "models": 1,
-          "points": 140,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20",
+          "points": 135,
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04",
           "copy_tier": "1st_to_2nd"
         },
         {
           "models": 1,
-          "points": 150,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20",
+          "points": 145,
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04",
           "copy_tier": "3rd_and_later"
         }
       ],
@@ -4423,7 +4524,7 @@
         "bsdata_11e_crosscheck": "CHECKED",
         "fallback_10e_used": false,
         "verification_status": "V2_PILOT_VERIFIED_GW_WAHAPEDIA",
-        "last_reviewed": "2026-08-20",
+        "last_reviewed": "2026-10-04",
         "bsdata_notes": [
           "Profile confirmed: M 8, T 10, Sv 3+, W 14, Ld 8+, OC 4.",
           "Base points confirmed: 140.",
@@ -4431,7 +4532,7 @@
         ],
         "bsdata_target_id": "bbfd-5b01-5bd3-a28b",
         "catalog_presence": "CONFIRMED_BSDATA_11E",
-        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.2, supplied PDF 2026-08-20",
+        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.5, supplied PDF 2026-10-04",
         "points_recheck_required": false
       },
       "rule_refs": {
@@ -4474,18 +4575,24 @@
         "Sv": "7+",
         "W": 3,
         "Ld": "8+",
-        "OC": 0
+        "OC": 0,
+        "movement": "4\"",
+        "toughness": 4,
+        "save": "7+",
+        "wounds": 3,
+        "leadership": "8+",
+        "objective_control": 0
       },
       "points": [
         {
           "models": 1,
           "points": 30,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20"
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         },
         {
           "models": 2,
           "points": 60,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20"
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         }
       ],
       "ranged_weapons": [],
@@ -4538,8 +4645,8 @@
         "gw_faction_pack_crosscheck": "PENDING_OR_NOT_APPLICABLE",
         "verification_status": "DETAIL_RECORD_PENDING",
         "fallback_10e_used": false,
-        "last_reviewed": "2026-08-20",
-        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.2, supplied PDF 2026-08-20",
+        "last_reviewed": "2026-10-04",
+        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.5, supplied PDF 2026-10-04",
         "points_recheck_required": false,
         "structure_source": "User supplied unified Tyranids datasheet PDF",
         "structure_source_page": 24,
@@ -4592,17 +4699,17 @@
         {
           "models": 1,
           "points": 60,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20"
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         },
         {
           "models": 2,
           "points": 100,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20"
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         },
         {
           "models": 3,
           "points": 140,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20"
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         }
       ],
       "ranged_weapons": [
@@ -4689,10 +4796,10 @@
         "bsdata_11e_crosscheck": "PENDING_DETAILED_RECORD_CHECK",
         "fallback_10e_used": false,
         "verification_status": "V2_PILOT_VERIFIED_GW_WAHAPEDIA",
-        "last_reviewed": "2026-08-20",
+        "last_reviewed": "2026-10-04",
         "bsdata_target_id": "3f2c-85ec-d83c-4a2f",
         "catalog_presence": "CONFIRMED_BSDATA_11E",
-        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.2, supplied PDF 2026-08-20",
+        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.5, supplied PDF 2026-10-04",
         "points_recheck_required": false
       },
       "rule_refs": {
@@ -4738,18 +4845,24 @@
         "Sv": "2+",
         "W": 8,
         "Ld": "8+",
-        "OC": 3
+        "OC": 3,
+        "movement": "8\"",
+        "toughness": 9,
+        "save": "2+",
+        "wounds": 8,
+        "leadership": "8+",
+        "objective_control": 3
       },
       "points": [
         {
           "models": 1,
           "points": 90,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20"
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         },
         {
           "models": 2,
           "points": 180,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20"
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         }
       ],
       "ranged_weapons": [
@@ -4935,9 +5048,9 @@
         "gw_faction_pack_crosscheck": "PATCHES_CAPTURED_DIRECT_GW",
         "verification_status": "GW_PATCH_VERIFIED_BASE_RECORD_PENDING",
         "fallback_10e_used": false,
-        "last_reviewed": "2026-08-20",
+        "last_reviewed": "2026-10-04",
         "gw_patch_count": 2,
-        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.2, supplied PDF 2026-08-20",
+        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.5, supplied PDF 2026-10-04",
         "points_recheck_required": false,
         "structure_source": "User supplied unified Tyranids datasheet PDF",
         "structure_source_page": 4,
@@ -4988,19 +5101,25 @@
         "Sv": "2+",
         "W": 10,
         "Ld": "8+",
-        "OC": 3
+        "OC": 3,
+        "movement": "8\"",
+        "toughness": 9,
+        "save": "2+",
+        "wounds": 10,
+        "leadership": "8+",
+        "objective_control": 3
       },
       "points": [
         {
           "models": 1,
           "points": 125,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20",
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04",
           "copy_tier": "1st_to_2nd"
         },
         {
           "models": 1,
           "points": 135,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20",
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04",
           "copy_tier": "3rd_and_later"
         }
       ],
@@ -5077,8 +5196,8 @@
         "gw_faction_pack_crosscheck": "PENDING_OR_NOT_APPLICABLE",
         "verification_status": "DETAIL_RECORD_PENDING",
         "fallback_10e_used": false,
-        "last_reviewed": "2026-08-20",
-        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.2, supplied PDF 2026-08-20",
+        "last_reviewed": "2026-10-04",
+        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.5, supplied PDF 2026-10-04",
         "points_recheck_required": false,
         "structure_source": "User supplied unified Tyranids datasheet PDF",
         "structure_source_page": 35,
@@ -5118,31 +5237,37 @@
         "Sv": "3+",
         "W": 4,
         "Ld": "8+",
-        "OC": 1
+        "OC": 1,
+        "movement": "6\"",
+        "toughness": 7,
+        "save": "3+",
+        "wounds": 4,
+        "leadership": "8+",
+        "objective_control": 1
       },
       "points": [
         {
           "models": 3,
           "points": 80,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20",
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04",
           "copy_tier": "1st_to_2nd"
         },
         {
           "models": 6,
           "points": 160,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20",
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04",
           "copy_tier": "1st_to_2nd"
         },
         {
           "models": 3,
           "points": 90,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20",
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04",
           "copy_tier": "3rd_and_later"
         },
         {
           "models": 6,
           "points": 170,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20",
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04",
           "copy_tier": "3rd_and_later"
         }
       ],
@@ -5238,8 +5363,8 @@
         "gw_faction_pack_crosscheck": "PENDING_OR_NOT_APPLICABLE",
         "verification_status": "CONFIRMED_11E_CROSSCHECK_BATCH01",
         "fallback_10e_used": false,
-        "last_reviewed": "2026-09-17",
-        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.2, supplied PDF 2026-08-20",
+        "last_reviewed": "2026-10-04",
+        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.5, supplied PDF 2026-10-04",
         "points_recheck_required": false,
         "structure_source": "User supplied unified Tyranids datasheet PDF",
         "structure_source_page": 15,
@@ -5276,19 +5401,25 @@
         "Sv": "2+",
         "W": 16,
         "Ld": "8+",
-        "OC": 5
+        "OC": 5,
+        "movement": "9\"",
+        "toughness": 12,
+        "save": "2+",
+        "wounds": 16,
+        "leadership": "8+",
+        "objective_control": 5
       },
       "points": [
         {
           "models": 1,
-          "points": 180,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20",
+          "points": 170,
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04",
           "copy_tier": "1st_to_2nd"
         },
         {
           "models": 1,
-          "points": 190,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20",
+          "points": 180,
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04",
           "copy_tier": "3rd_and_later"
         }
       ],
@@ -5412,9 +5543,9 @@
         "gw_faction_pack_crosscheck": "PATCHES_CAPTURED_DIRECT_GW",
         "verification_status": "GW_PATCH_VERIFIED_BASE_RECORD_PENDING",
         "fallback_10e_used": false,
-        "last_reviewed": "2026-08-20",
+        "last_reviewed": "2026-10-04",
         "gw_patch_count": 1,
-        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.2, supplied PDF 2026-08-20",
+        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.5, supplied PDF 2026-10-04",
         "points_recheck_required": false,
         "audit_note": "Resolved by supplied official GW MFM v1.2: 1st-2nd 180; 3rd+ 190.",
         "structure_source": "User supplied unified Tyranids datasheet PDF",
@@ -5473,7 +5604,12 @@
         "WEAPON_SUSTAINED_HITS",
         "WEAPON_TORRENT",
         "WEAPON_TWIN_LINKED"
-      ]
+      ],
+      "wargear_points_v1_5": {
+        "Acid spray": 10,
+        "Rupture Cannon": 20,
+        "source": "GW MFM Tyranids v1.5 2026-10-04"
+      }
     },
     {
       "unit_id": "tyr_tyrannocyte",
@@ -5489,19 +5625,25 @@
         "Sv": "3+",
         "W": 10,
         "Ld": "8+",
-        "OC": 2
+        "OC": 2,
+        "movement": "8\"",
+        "toughness": 9,
+        "save": "3+",
+        "wounds": 10,
+        "leadership": "8+",
+        "objective_control": 2
       },
       "points": [
         {
           "models": 1,
           "points": 80,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20",
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04",
           "copy_tier": "1st_to_3rd"
         },
         {
           "models": 1,
           "points": 90,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20",
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04",
           "copy_tier": "4th_and_later"
         }
       ],
@@ -5582,9 +5724,9 @@
         "gw_faction_pack_crosscheck": "PATCHES_CAPTURED_DIRECT_GW",
         "verification_status": "CONFIRMED_11E_CROSSCHECK_BATCH01",
         "fallback_10e_used": false,
-        "last_reviewed": "2026-09-17",
+        "last_reviewed": "2026-10-04",
         "gw_patch_count": 1,
-        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.2, supplied PDF 2026-08-20",
+        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.5, supplied PDF 2026-10-04",
         "points_recheck_required": false,
         "structure_source": "User supplied unified Tyranids datasheet PDF",
         "structure_source_page": "Tyrannocyte datasheet",
@@ -5640,13 +5782,19 @@
         "Sv": "3+",
         "W": 12,
         "Ld": "8+",
-        "OC": "-"
+        "OC": "-",
+        "movement": "-",
+        "toughness": 9,
+        "save": "3+",
+        "wounds": 12,
+        "leadership": "8+",
+        "objective_control": "-"
       },
       "points": [
         {
           "models": 1,
           "points": 185,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20"
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         }
       ],
       "ranged_weapons": [
@@ -5756,9 +5904,9 @@
         "gw_faction_pack_crosscheck": "PATCHES_CAPTURED_DIRECT_GW",
         "verification_status": "GW_PATCH_VERIFIED_BASE_RECORD_PENDING",
         "fallback_10e_used": false,
-        "last_reviewed": "2026-08-20",
+        "last_reviewed": "2026-10-04",
         "gw_patch_count": 4,
-        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.2, supplied PDF 2026-08-20",
+        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.5, supplied PDF 2026-10-04",
         "points_recheck_required": false,
         "structure_source": "User supplied unified Tyranids datasheet PDF",
         "structure_source_page": 10,
@@ -5824,13 +5972,19 @@
         "Sv": "3+",
         "W": 12,
         "Ld": "8+",
-        "OC": "-"
+        "OC": "-",
+        "movement": "-",
+        "toughness": 9,
+        "save": "3+",
+        "wounds": 12,
+        "leadership": "8+",
+        "objective_control": "-"
       },
       "points": [
         {
           "models": 1,
           "points": 170,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20"
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         }
       ],
       "ranged_weapons": [
@@ -5955,9 +6109,9 @@
         "gw_faction_pack_crosscheck": "PATCHES_CAPTURED_DIRECT_GW",
         "verification_status": "GW_PATCH_VERIFIED_BASE_RECORD_PENDING",
         "fallback_10e_used": false,
-        "last_reviewed": "2026-08-20",
+        "last_reviewed": "2026-10-04",
         "gw_patch_count": 3,
-        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.2, supplied PDF 2026-08-20",
+        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.5, supplied PDF 2026-10-04",
         "points_recheck_required": false,
         "structure_source": "User supplied unified Tyranids datasheet PDF",
         "structure_source_page": 14,
@@ -6019,13 +6173,19 @@
         "Sv": "3+",
         "W": 10,
         "Ld": "8+",
-        "OC": 0
+        "OC": 0,
+        "movement": "-",
+        "toughness": 10,
+        "save": "3+",
+        "wounds": 10,
+        "leadership": "8+",
+        "objective_control": 0
       },
       "points": [
         {
           "models": 1,
           "points": 145,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20"
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         }
       ],
       "ranged_weapons": [
@@ -6104,9 +6264,9 @@
         "gw_faction_pack_crosscheck": "PATCHES_CAPTURED_DIRECT_GW",
         "verification_status": "GW_PATCH_VERIFIED_BASE_RECORD_PENDING",
         "fallback_10e_used": false,
-        "last_reviewed": "2026-08-20",
+        "last_reviewed": "2026-10-04",
         "gw_patch_count": 1,
-        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.2, supplied PDF 2026-08-20",
+        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.5, supplied PDF 2026-10-04",
         "points_recheck_required": false,
         "structure_source": "User supplied unified Tyranids datasheet PDF",
         "structure_source_page": 36,
@@ -6152,13 +6312,19 @@
         "Sv": "3+",
         "W": 10,
         "Ld": "8+",
-        "OC": 3
+        "OC": 3,
+        "movement": "12\"",
+        "toughness": 9,
+        "save": "3+",
+        "wounds": 10,
+        "leadership": "8+",
+        "objective_control": 3
       },
       "points": [
         {
           "models": 1,
           "points": 110,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20"
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         }
       ],
       "ranged_weapons": [
@@ -6247,9 +6413,9 @@
         "gw_faction_pack_crosscheck": "PATCHES_CAPTURED_DIRECT_GW",
         "verification_status": "GW_PATCH_VERIFIED_BASE_RECORD_PENDING",
         "fallback_10e_used": false,
-        "last_reviewed": "2026-08-20",
+        "last_reviewed": "2026-10-04",
         "gw_patch_count": 4,
-        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.2, supplied PDF 2026-08-20",
+        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.5, supplied PDF 2026-10-04",
         "points_recheck_required": false,
         "structure_source": "User supplied unified Tyranids datasheet PDF",
         "structure_source_page": 31,
@@ -6314,18 +6480,24 @@
         "Sv": "4+",
         "W": 2,
         "Ld": "8+",
-        "OC": 1
+        "OC": 1,
+        "movement": "6\"",
+        "toughness": 4,
+        "save": "4+",
+        "wounds": 2,
+        "leadership": "8+",
+        "objective_control": 1
       },
       "points": [
         {
           "models": 5,
-          "points": 55,
-          "status": "OFFICIAL_GW_MFM_2026_WEB_VERIFIED_2026-09-17"
+          "points": 50,
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         },
         {
           "models": 10,
-          "points": 110,
-          "status": "OFFICIAL_GW_MFM_2026_WEB_VERIFIED_2026-09-17"
+          "points": 100,
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         }
       ],
       "ranged_weapons": [
@@ -6401,14 +6573,14 @@
         "gw_faction_pack_crosscheck": "PENDING_OR_NOT_APPLICABLE",
         "verification_status": "DETAIL_RECORD_PENDING",
         "fallback_10e_used": false,
-        "last_reviewed": "2026-08-20",
+        "last_reviewed": "2026-10-04",
         "mfm_v1_2_presence": "NOT_LISTED",
         "points_recheck_required": false,
         "points_status": "OFFICIAL_GW_CONFIRMED",
         "structure_source": "User supplied unified Tyranids datasheet PDF",
         "structure_reviewed": "2026-08-20",
         "structure_source_page": 1,
-        "points_source": "Games Workshop official 2026 Munitorum Field Manual web/PDF cross-check"
+        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.5, supplied PDF 2026-10-04"
       },
       "rc1_record_status": "DETAILED_RECORD_PRESENT",
       "audit_v5": {
@@ -6442,19 +6614,25 @@
         "Sv": "3+",
         "W": 30,
         "Ld": "8+",
-        "OC": 0
+        "OC": 0,
+        "movement": "14\"",
+        "toughness": 10,
+        "save": "3+",
+        "wounds": 30,
+        "leadership": "8+",
+        "objective_control": 0
       },
       "points": [
         {
           "models": 1,
           "points": 610,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20",
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04",
           "copy_tier": "1st"
         },
         {
           "models": 1,
           "points": 660,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20",
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04",
           "copy_tier": "2nd_and_later"
         }
       ],
@@ -6538,8 +6716,8 @@
         "gw_faction_pack_crosscheck": "PENDING_OR_NOT_APPLICABLE",
         "verification_status": "DETAIL_RECORD_PENDING",
         "fallback_10e_used": false,
-        "last_reviewed": "2026-08-20",
-        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.2, supplied PDF 2026-08-20",
+        "last_reviewed": "2026-10-04",
+        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.5, supplied PDF 2026-10-04",
         "points_recheck_required": false,
         "structure_source": "User supplied unified Tyranids datasheet PDF, direct page image",
         "structure_reviewed": "2026-08-20"
@@ -6575,19 +6753,26 @@
         "W": 30,
         "Ld": "8+",
         "OC": 12,
-        "InSv": "5+"
+        "InSv": "5+",
+        "movement": "12\"",
+        "toughness": 14,
+        "save": "2+",
+        "wounds": 30,
+        "leadership": "8+",
+        "objective_control": 12,
+        "invulnerable_save": "5+"
       },
       "points": [
         {
           "models": 1,
           "points": 810,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20",
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04",
           "copy_tier": "1st"
         },
         {
           "models": 1,
           "points": 910,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20",
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04",
           "copy_tier": "2nd_and_later"
         }
       ],
@@ -6709,8 +6894,8 @@
         "gw_faction_pack_crosscheck": "PENDING_OR_NOT_APPLICABLE",
         "verification_status": "DETAIL_RECORD_PENDING",
         "fallback_10e_used": false,
-        "last_reviewed": "2026-08-20",
-        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.2, supplied PDF 2026-08-20",
+        "last_reviewed": "2026-10-04",
+        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.5, supplied PDF 2026-10-04",
         "points_recheck_required": false,
         "structure_source": "User supplied unified Tyranids datasheet PDF",
         "structure_source_page": 13,
@@ -6750,31 +6935,38 @@
         "W": 2,
         "Ld": "7+",
         "OC": 1,
-        "InSv": "5+"
+        "InSv": "5+",
+        "movement": "8\"",
+        "toughness": 4,
+        "save": "5+",
+        "wounds": 2,
+        "leadership": "7+",
+        "objective_control": 1,
+        "invulnerable_save": "5+"
       },
       "points": [
         {
           "models": 5,
           "points": 75,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20",
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04",
           "copy_tier": "1st_to_2nd"
         },
         {
           "models": 10,
           "points": 140,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20",
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04",
           "copy_tier": "1st_to_2nd"
         },
         {
           "models": 5,
           "points": 85,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20",
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04",
           "copy_tier": "3rd_and_later"
         },
         {
           "models": 10,
           "points": 150,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20",
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04",
           "copy_tier": "3rd_and_later"
         }
       ],
@@ -6837,8 +7029,8 @@
         "gw_faction_pack_crosscheck": "PENDING_OR_NOT_APPLICABLE",
         "verification_status": "DETAIL_RECORD_PENDING",
         "fallback_10e_used": false,
-        "last_reviewed": "2026-08-20",
-        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.2, supplied PDF 2026-08-20",
+        "last_reviewed": "2026-10-04",
+        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.5, supplied PDF 2026-10-04",
         "points_recheck_required": false,
         "structure_source": "User supplied unified Tyranids datasheet PDF, direct page image",
         "structure_reviewed": "2026-08-20"
@@ -6892,13 +7084,13 @@
         {
           "models": 5,
           "points": 125,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20",
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04",
           "copy_tier": "1st_to_2nd"
         },
         {
           "models": 5,
           "points": 135,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20",
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04",
           "copy_tier": "3rd_and_later"
         }
       ],
@@ -6967,10 +7159,10 @@
         "wahapedia_11e_crosscheck": "PENDING",
         "fallback_10e_used": false,
         "verification_status": "GW_11E_DIRECT_VERIFIED",
-        "last_reviewed": "2026-08-20",
+        "last_reviewed": "2026-10-04",
         "bsdata_target_id": "3f5-f7d6-1ce8-e6b9",
         "catalog_presence": "CONFIRMED_BSDATA_11E",
-        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.2, supplied PDF 2026-08-20",
+        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.5, supplied PDF 2026-10-04",
         "points_recheck_required": false
       },
       "rc1_record_status": "DETAILED_RECORD_PRESENT",
@@ -7002,19 +7194,26 @@
         "W": 7,
         "Ld": "7+",
         "OC": 1,
-        "InSv": "4+"
+        "InSv": "4+",
+        "movement": "8\"",
+        "toughness": 5,
+        "save": "4+",
+        "wounds": 7,
+        "leadership": "7+",
+        "objective_control": 1,
+        "invulnerable_save": "4+"
       },
       "points": [
         {
           "models": 1,
           "points": 80,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20",
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04",
           "copy_tier": "1st_to_2nd"
         },
         {
           "models": 1,
           "points": 90,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20",
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04",
           "copy_tier": "3rd_and_later"
         }
       ],
@@ -7095,9 +7294,9 @@
         "gw_faction_pack_crosscheck": "PATCHES_CAPTURED_DIRECT_GW",
         "verification_status": "GW_PATCH_VERIFIED_BASE_RECORD_PENDING",
         "fallback_10e_used": false,
-        "last_reviewed": "2026-08-20",
+        "last_reviewed": "2026-10-04",
         "gw_patch_count": 1,
-        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.2, supplied PDF 2026-08-20",
+        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.5, supplied PDF 2026-10-04",
         "points_recheck_required": false,
         "structure_source": "User supplied unified Tyranids datasheet PDF",
         "structure_source_page": 26,
@@ -7148,19 +7347,26 @@
         "W": 16,
         "Ld": "7+",
         "OC": 5,
-        "InSv": "4+"
+        "InSv": "4+",
+        "movement": "10\"",
+        "toughness": 11,
+        "save": "2+",
+        "wounds": 16,
+        "leadership": "7+",
+        "objective_control": 5,
+        "invulnerable_save": "4+"
       },
       "points": [
         {
           "models": 1,
           "points": 250,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20",
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04",
           "copy_tier": "1st"
         },
         {
           "models": 1,
           "points": 270,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20",
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04",
           "copy_tier": "2nd_and_later"
         }
       ],
@@ -7271,8 +7477,8 @@
         "gw_faction_pack_crosscheck": "PENDING_OR_NOT_APPLICABLE",
         "verification_status": "DETAIL_RECORD_PENDING",
         "fallback_10e_used": false,
-        "last_reviewed": "2026-08-20",
-        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.2, supplied PDF 2026-08-20",
+        "last_reviewed": "2026-10-04",
+        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.5, supplied PDF 2026-10-04",
         "points_recheck_required": false,
         "structure_source": "User supplied unified Tyranids datasheet PDF",
         "structure_source_page": 29,
@@ -7334,13 +7540,13 @@
         {
           "models": 1,
           "points": 250,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20",
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04",
           "copy_tier": "1st"
         },
         {
           "models": 1,
           "points": 270,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20",
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04",
           "copy_tier": "2nd_and_later"
         }
       ],
@@ -7446,10 +7652,10 @@
         "bsdata_11e_crosscheck": "PENDING_DETAILED_RECORD_CHECK",
         "fallback_10e_used": false,
         "verification_status": "V2_PILOT_VERIFIED_GW_WAHAPEDIA",
-        "last_reviewed": "2026-08-20",
+        "last_reviewed": "2026-10-04",
         "bsdata_target_id": "6a9b-8e2f-edac-fa2d",
         "catalog_presence": "CONFIRMED_BSDATA_11E",
-        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.2, supplied PDF 2026-08-20",
+        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.5, supplied PDF 2026-10-04",
         "points_recheck_required": false
       },
       "rule_refs": {
@@ -7495,7 +7701,13 @@
             "Sv": "4+",
             "W": 6,
             "Ld": "7+",
-            "OC": 1
+            "OC": 1,
+            "movement": "10\"",
+            "toughness": 5,
+            "save": "4+",
+            "wounds": 6,
+            "leadership": "7+",
+            "objective_control": 1
           },
           {
             "model": "Ravener",
@@ -7504,7 +7716,13 @@
             "Sv": "4+",
             "W": 3,
             "Ld": "8+",
-            "OC": 1
+            "OC": 1,
+            "movement": "10\"",
+            "toughness": 5,
+            "save": "4+",
+            "wounds": 3,
+            "leadership": "8+",
+            "objective_control": 1
           }
         ]
       },
@@ -7512,13 +7730,13 @@
         {
           "models": 5,
           "points": 165,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20",
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04",
           "copy_tier": "1st_to_2nd"
         },
         {
           "models": 5,
           "points": 175,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20",
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04",
           "copy_tier": "3rd_and_later"
         }
       ],
@@ -7620,8 +7838,8 @@
         "gw_faction_pack_crosscheck": "PENDING_OR_NOT_APPLICABLE",
         "verification_status": "DETAIL_RECORD_PENDING",
         "fallback_10e_used": false,
-        "last_reviewed": "2026-08-20",
-        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.2, supplied PDF 2026-08-20",
+        "last_reviewed": "2026-10-04",
+        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.5, supplied PDF 2026-10-04",
         "points_recheck_required": false,
         "structure_source": "User supplied unified Tyranids datasheet PDF",
         "structure_source_page": 18,
@@ -7721,7 +7939,7 @@
         {
           "models": 1,
           "points": 75,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20"
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         }
       ],
       "points_status": "PENDING_SEPARATE_POINTS_MODULE",
@@ -7824,10 +8042,10 @@
         "wahapedia_11e_crosscheck": "PENDING",
         "fallback_10e_used": false,
         "verification_status": "GW_11E_DIRECT_VERIFIED",
-        "last_reviewed": "2026-08-20",
+        "last_reviewed": "2026-10-04",
         "bsdata_target_id": "31f9-9730-853c-6f13",
         "catalog_presence": "CONFIRMED_BSDATA_11E",
-        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.2, supplied PDF 2026-08-20",
+        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.5, supplied PDF 2026-10-04",
         "points_recheck_required": false
       },
       "rc1_record_status": "DETAILED_RECORD_PRESENT",
@@ -7877,8 +8095,8 @@
       "points": [
         {
           "models": 1,
-          "points": 130,
-          "status": "OFFICIAL_GW_MFM_V1_2_2026-08-20"
+          "points": 120,
+          "status": "OFFICIAL_GW_MFM_V1_5_2026-10-04"
         }
       ],
       "points_status": "PENDING_SEPARATE_POINTS_MODULE",
@@ -7968,10 +8186,10 @@
         "wahapedia_11e_crosscheck": "PENDING",
         "fallback_10e_used": false,
         "verification_status": "GW_11E_DIRECT_VERIFIED",
-        "last_reviewed": "2026-08-20",
+        "last_reviewed": "2026-10-04",
         "bsdata_target_id": "7173-1bd9-b60b-6555",
         "catalog_presence": "CONFIRMED_BSDATA_11E",
-        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.2, supplied PDF 2026-08-20",
+        "points_source": "Games Workshop official Munitorum Field Manual Tyranids v1.5, supplied PDF 2026-10-04",
         "points_recheck_required": false
       },
       "rc1_record_status": "DETAILED_RECORD_PRESENT",
@@ -8392,15 +8610,21 @@
     }
   ],
   "official_detachment_costs_v1_2": {
-    "Lurking Predators": {
+    "Ambush Predators": {
       "dp": 1,
+      "force_dispositions": [
+        "DISRUPTION"
+      ],
       "enhancements": {
-        "Cryptophotic Camouflage (Upgrade)": 15,
+        "Cryptophotaic Camouflage (Upgrade)": 15,
         "Encircling Horrors (Upgrade)": 20
       }
     },
     "Assimilation Swarm": {
       "dp": 2,
+      "force_dispositions": [
+        "PRIORITY ASSETS"
+      ],
       "enhancements": {
         "Biophagic Flow": 10,
         "Instinctive Defence": 15,
@@ -8410,8 +8634,11 @@
     },
     "Crusher Stampede": {
       "dp": 2,
+      "force_dispositions": [
+        "PURGE THE FOE"
+      ],
       "enhancements": {
-        "Furious Reserves": 20,
+        "Enraged Reserves": 20,
         "Monstrous Nemesis": 25,
         "Null Nodules": 10,
         "Ominous Presence": 15
@@ -8419,49 +8646,71 @@
     },
     "Invasion Fleet": {
       "dp": 3,
+      "force_dispositions": [
+        "TAKE AND HOLD",
+        "PRIORITY ASSETS"
+      ],
       "enhancements": {
         "Adaptive Biology": 25,
         "Alien Cunning": 30,
         "Perfectly Adapted": 15,
         "Synaptic Linchpin": 20
-      }
+      },
+      "updated": "FORCE DISPOSITION(S) CHANGED"
     },
     "Subterranean Assault": {
       "dp": 3,
+      "force_dispositions": [
+        "DISRUPTION",
+        "RECONNAISSANCE"
+      ],
       "enhancements": {
         "Synaptic Strategy": 15,
-        "Telluric Senses": 20,
+        "Tremor Senses": 20,
         "Trygon Prime": 20,
         "Vanguard Intellect": 15
-      }
+      },
+      "updated": "FORCE DISPOSITION(S) CHANGED"
     },
     "Synaptic Nexus": {
       "dp": 2,
+      "force_dispositions": [
+        "DISRUPTION"
+      ],
       "enhancements": {
         "Power of the Hive Mind": 10,
-        "Hindering Psyodisturbance (Aura)": 30,
+        "Psychostatic Disruption (Aura)": 30,
         "Synaptic Control": 20,
-        "Feral Heart of Kharis": 15
+        "The Dirgeheart of Kharis": 15
       }
     },
-    "Norn Queen's Claws": {
+    "Talons of the Norn Queen": {
       "dp": 1,
+      "force_dispositions": [
+        "TAKE AND HOLD"
+      ],
       "enhancements": {
         "Destabilising Predation (Upgrade)": 20,
-        "Synaptic Foresight (Upgrade)": 25
+        "Synaptoprescience (Upgrade)": 30
       }
     },
-    "Endless Swarm": {
+    "Unending Swarm": {
       "dp": 2,
+      "force_dispositions": [
+        "TAKE AND HOLD"
+      ],
       "enhancements": {
         "Adrenalised Onslaught": 15,
-        "Innate Camouflage": 30,
-        "Rending Claws": 25,
+        "Naturalised Camouflage": 30,
+        "Piercing Talons": 25,
         "Relentless Hunger": 20
       }
     },
     "Vanguard Onslaught": {
       "dp": 2,
+      "force_dispositions": [
+        "RECONNAISSANCE"
+      ],
       "enhancements": {
         "Chameleonic": 15,
         "Hunting Grounds": 30,
@@ -8471,8 +8720,11 @@
     },
     "Warrior Bioform Onslaught": {
       "dp": 1,
+      "force_dispositions": [
+        "TAKE AND HOLD"
+      ],
       "enhancements": {
-        "Enhanced Strength": 30,
+        "Elevated Might": 30,
         "Ocular Adaptation": 20
       }
     }
@@ -8828,19 +9080,401 @@
           "reason": "NOT_LISTED"
         }
       ]
+    },
+    {
+      "date": "2026-10-04",
+      "batch": "GW_MFM_V1_5_SUPPLIED_PDF_ALIGNMENT",
+      "records_aligned": 52,
+      "point_value_changes": [
+        {
+          "unit": "Tervigon",
+          "from": [
+            [
+              1,
+              160,
+              null
+            ]
+          ],
+          "to": [
+            [
+              1,
+              150,
+              null
+            ]
+          ]
+        },
+        {
+          "unit": "Old One Eye",
+          "from": [
+            [
+              1,
+              140,
+              null
+            ]
+          ],
+          "to": [
+            [
+              1,
+              130,
+              null
+            ]
+          ]
+        },
+        {
+          "unit": "Termagants",
+          "from": [
+            [
+              10,
+              60,
+              null
+            ],
+            [
+              20,
+              110,
+              null
+            ]
+          ],
+          "to": [
+            [
+              10,
+              55,
+              null
+            ],
+            [
+              20,
+              110,
+              null
+            ]
+          ]
+        },
+        {
+          "unit": "Gargoyles",
+          "from": [
+            [
+              10,
+              80,
+              null
+            ],
+            [
+              20,
+              155,
+              null
+            ]
+          ],
+          "to": [
+            [
+              10,
+              75,
+              null
+            ],
+            [
+              20,
+              150,
+              null
+            ]
+          ]
+        },
+        {
+          "unit": "Maleceptor",
+          "from": [
+            [
+              1,
+              190,
+              "1st_to_2nd"
+            ],
+            [
+              1,
+              200,
+              "3rd_and_later"
+            ]
+          ],
+          "to": [
+            [
+              1,
+              180,
+              "1st_to_2nd"
+            ],
+            [
+              1,
+              190,
+              "3rd_and_later"
+            ]
+          ]
+        },
+        {
+          "unit": "Neurotyrant",
+          "from": [
+            [
+              1,
+              130,
+              null
+            ]
+          ],
+          "to": [
+            [
+              1,
+              120,
+              null
+            ]
+          ]
+        },
+        {
+          "unit": "Pyrovores",
+          "from": [
+            [
+              1,
+              45,
+              "1st_to_2nd"
+            ],
+            [
+              2,
+              65,
+              "1st_to_2nd"
+            ],
+            [
+              3,
+              95,
+              "1st_to_2nd"
+            ],
+            [
+              1,
+              55,
+              "3rd_and_later"
+            ],
+            [
+              2,
+              75,
+              "3rd_and_later"
+            ],
+            [
+              3,
+              105,
+              "3rd_and_later"
+            ]
+          ],
+          "to": [
+            [
+              1,
+              40,
+              "1st_to_2nd"
+            ],
+            [
+              2,
+              70,
+              "1st_to_2nd"
+            ],
+            [
+              3,
+              100,
+              "1st_to_2nd"
+            ],
+            [
+              1,
+              50,
+              "3rd_and_later"
+            ],
+            [
+              2,
+              80,
+              "3rd_and_later"
+            ],
+            [
+              3,
+              110,
+              "3rd_and_later"
+            ]
+          ]
+        },
+        {
+          "unit": "Zoanthropes",
+          "from": [
+            [
+              3,
+              90,
+              null
+            ],
+            [
+              6,
+              200,
+              null
+            ]
+          ],
+          "to": [
+            [
+              3,
+              90,
+              null
+            ],
+            [
+              6,
+              190,
+              null
+            ]
+          ]
+        },
+        {
+          "unit": "Parasite of Mortrex",
+          "from": [
+            [
+              1,
+              70,
+              null
+            ]
+          ],
+          "to": [
+            [
+              1,
+              65,
+              null
+            ]
+          ]
+        },
+        {
+          "unit": "Mawloc",
+          "from": [
+            [
+              1,
+              135,
+              null
+            ]
+          ],
+          "to": [
+            [
+              1,
+              130,
+              null
+            ]
+          ]
+        },
+        {
+          "unit": "Trygon",
+          "from": [
+            [
+              1,
+              140,
+              null
+            ]
+          ],
+          "to": [
+            [
+              1,
+              135,
+              null
+            ]
+          ]
+        },
+        {
+          "unit": "Exocrine",
+          "from": [
+            [
+              1,
+              140,
+              "1st_to_2nd"
+            ],
+            [
+              1,
+              150,
+              "3rd_and_later"
+            ]
+          ],
+          "to": [
+            [
+              1,
+              135,
+              "1st_to_2nd"
+            ],
+            [
+              1,
+              145,
+              "3rd_and_later"
+            ]
+          ]
+        },
+        {
+          "unit": "Tyrannofex",
+          "from": [
+            [
+              1,
+              180,
+              "1st_to_2nd"
+            ],
+            [
+              1,
+              190,
+              "3rd_and_later"
+            ]
+          ],
+          "to": [
+            [
+              1,
+              170,
+              "1st_to_2nd"
+            ],
+            [
+              1,
+              180,
+              "3rd_and_later"
+            ]
+          ]
+        },
+        {
+          "unit": "Barbgaunts",
+          "from": [
+            [
+              5,
+              55,
+              null
+            ],
+            [
+              10,
+              110,
+              null
+            ]
+          ],
+          "to": [
+            [
+              5,
+              50,
+              null
+            ],
+            [
+              10,
+              100,
+              null
+            ]
+          ]
+        },
+        {
+          "unit": "The Red Terror",
+          "from": [
+            [
+              1,
+              130,
+              null
+            ]
+          ],
+          "to": [
+            [
+              1,
+              120,
+              null
+            ]
+          ]
+        }
+      ],
+      "detachment_section": "UPDATED_TO_V1_5",
+      "source": "Games Workshop official Munitorum Field Manual Tyranids v1.5 supplied by user"
     }
   ],
   "release": {
-    "name": "TYRANIDS DATABASE V4 DEFINITIVO",
-    "date": "2026-08-20",
+    "name": "V5.1-GW-MFM-V1.5-2026-10-04",
+    "date": "2026-10-04",
     "unit_count": 52,
     "structural_gap_count": 0,
-    "gw_mfm_version": "v1.2",
-    "gw_mfm_alignment": "COMPLETE_FOR_ALL_UNITS_LISTED_IN_SUPPLIED_DOCUMENT",
-    "pending_primary_points_confirmation": [
-      "Barbgaunts"
-    ],
-    "status": "FINAL",
+    "gw_mfm_version": "v1.5",
+    "gw_mfm_alignment": "FULL_52_UNIT_ALIGNMENT_FROM_USER_SUPPLIED_GW_PDF",
+    "pending_primary_points_confirmation": [],
+    "status": "FINAL_GW_MFM_V1_5_POINTS_ALIGNED",
     "duplicate_name_count": 0,
     "malformed_points_count": 0,
     "final_audit_date": "2026-08-20",
@@ -8849,7 +9483,8 @@
         "unit": "Barbgaunts",
         "reason": "NOT_LISTED"
       }
-    ]
+    ],
+    "normalized_profile_aliases_2026_09_26": true
   },
   "update_manifest": {
     "mode": "STAGED_ATOMIC_VALIDATED",
@@ -8921,7 +9556,10 @@
       "enhancements",
       "stratagems"
     ],
-    "assets_are_external": true
+    "assets_are_external": true,
+    "last_official_points_update": "2026-10-04",
+    "official_points_source": "GW Munitorum Field Manual Tyranids v1.5",
+    "compatibility_note": "Legacy official_detachment_costs_v1_2 key retained and refreshed to v1.5 values for existing Android reader compatibility; canonical v1.5 copy also stored in official_detachment_costs_v1_5."
   },
   "migration_compatibility": {
     "source_schema": 4,
@@ -10030,5 +10668,139 @@
     "dual_database_integrity": "PASS",
     "runtime_structural_audit": "PASS",
     "production_installation": "READY_AFTER_COPYING_FINAL_RUNTIME_FILES_AND_ASSETS"
+  },
+  "profile_schema_normalization": {
+    "date": "2026-09-26",
+    "purpose": "Canonicalize profile aliases for app-wide readers without changing source values",
+    "canonical_fields": [
+      "movement",
+      "toughness",
+      "save",
+      "wounds",
+      "leadership",
+      "objective_control",
+      "invulnerable_save"
+    ],
+    "source_values_modified": false
+  },
+  "official_detachment_costs_v1_5": {
+    "Ambush Predators": {
+      "dp": 1,
+      "force_dispositions": [
+        "DISRUPTION"
+      ],
+      "enhancements": {
+        "Cryptophotaic Camouflage (Upgrade)": 15,
+        "Encircling Horrors (Upgrade)": 20
+      }
+    },
+    "Assimilation Swarm": {
+      "dp": 2,
+      "force_dispositions": [
+        "PRIORITY ASSETS"
+      ],
+      "enhancements": {
+        "Biophagic Flow": 10,
+        "Instinctive Defence": 15,
+        "Parasitic Biomorphology": 25,
+        "Regenerating Monstrosity": 20
+      }
+    },
+    "Crusher Stampede": {
+      "dp": 2,
+      "force_dispositions": [
+        "PURGE THE FOE"
+      ],
+      "enhancements": {
+        "Enraged Reserves": 20,
+        "Monstrous Nemesis": 25,
+        "Null Nodules": 10,
+        "Ominous Presence": 15
+      }
+    },
+    "Invasion Fleet": {
+      "dp": 3,
+      "force_dispositions": [
+        "TAKE AND HOLD",
+        "PRIORITY ASSETS"
+      ],
+      "enhancements": {
+        "Adaptive Biology": 25,
+        "Alien Cunning": 30,
+        "Perfectly Adapted": 15,
+        "Synaptic Linchpin": 20
+      },
+      "updated": "FORCE DISPOSITION(S) CHANGED"
+    },
+    "Subterranean Assault": {
+      "dp": 3,
+      "force_dispositions": [
+        "DISRUPTION",
+        "RECONNAISSANCE"
+      ],
+      "enhancements": {
+        "Synaptic Strategy": 15,
+        "Tremor Senses": 20,
+        "Trygon Prime": 20,
+        "Vanguard Intellect": 15
+      },
+      "updated": "FORCE DISPOSITION(S) CHANGED"
+    },
+    "Synaptic Nexus": {
+      "dp": 2,
+      "force_dispositions": [
+        "DISRUPTION"
+      ],
+      "enhancements": {
+        "Power of the Hive Mind": 10,
+        "Psychostatic Disruption (Aura)": 30,
+        "Synaptic Control": 20,
+        "The Dirgeheart of Kharis": 15
+      }
+    },
+    "Talons of the Norn Queen": {
+      "dp": 1,
+      "force_dispositions": [
+        "TAKE AND HOLD"
+      ],
+      "enhancements": {
+        "Destabilising Predation (Upgrade)": 20,
+        "Synaptoprescience (Upgrade)": 30
+      }
+    },
+    "Unending Swarm": {
+      "dp": 2,
+      "force_dispositions": [
+        "TAKE AND HOLD"
+      ],
+      "enhancements": {
+        "Adrenalised Onslaught": 15,
+        "Naturalised Camouflage": 30,
+        "Piercing Talons": 25,
+        "Relentless Hunger": 20
+      }
+    },
+    "Vanguard Onslaught": {
+      "dp": 2,
+      "force_dispositions": [
+        "RECONNAISSANCE"
+      ],
+      "enhancements": {
+        "Chameleonic": 15,
+        "Hunting Grounds": 30,
+        "Neuronode": 20,
+        "Stalker": 10
+      }
+    },
+    "Warrior Bioform Onslaught": {
+      "dp": 1,
+      "force_dispositions": [
+        "TAKE AND HOLD"
+      ],
+      "enhancements": {
+        "Elevated Might": 30,
+        "Ocular Adaptation": 20
+      }
+    }
   }
 }

@@ -1,0 +1,10 @@
+{
+  "version": "11e-tyranids-2026.10.04-v1.5",
+  "schema_version": 5,
+  "game_schema_version": 5,
+  "listbuilder_schema_version": 2,
+  "game_database_url": "https://raw.githubusercontent.com/salex20012000/TyranidsRosterUpdates/main/tyranids_game_data_11e_FINAL.json",
+  "listbuilder_database_url": "https://raw.githubusercontent.com/salex20012000/TyranidsRosterUpdates/main/tyranids_listbuilder_competitive_FINAL.json",
+  "database_url": "https://raw.githubusercontent.com/salex20012000/TyranidsRosterUpdates/main/tyranids_game_data_11e_FINAL.json",
+  "notes": "GW Munitorum Field Manual Tyranids v1.5 del 04/10/2026. Aggiornamento sincronizzato GAME_DATA + LIST_BUILDER_COMPETITIVE."
+}
