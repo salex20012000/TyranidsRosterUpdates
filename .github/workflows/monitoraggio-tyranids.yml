@@ -1,0 +1,62 @@
+name: Monitoraggio Tyranids
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 */6 * * *'
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/monitoraggio-tyranids.yml'
+      - 'scripts/monitoraggio_tyranids.py'
+      - 'monitoraggio/fonti.json'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: monitoraggio-tyranids
+  cancel-in-progress: false
+
+jobs:
+  controllo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Leggi repository
+        uses: actions/checkout@v4
+
+      - name: Verifica installazione completa
+        id: installazione
+        run: |
+          if [ -f scripts/monitoraggio_tyranids.py ] && [ -f monitoraggio/fonti.json ]; then
+            echo 'pronto=true' >> "$GITHUB_OUTPUT"
+          else
+            echo 'pronto=false' >> "$GITHUB_OUTPUT"
+            echo 'Configurazione incompleta: aggiungere script e fonti prima del primo controllo.' >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Prepara Python
+        if: steps.installazione.outputs.pronto == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Installa lettori delle fonti
+        if: steps.installazione.outputs.pronto == 'true'
+        run: python -m pip install requests==2.32.3 beautifulsoup4==4.13.4 pypdf==5.4.0
+
+      - name: Controlla documenti e prepara avvisi
+        if: steps.installazione.outputs.pronto == 'true'
+        run: python scripts/monitoraggio_tyranids.py
+
+      - name: Salva solo avvisi e stato del monitoraggio
+        if: steps.installazione.outputs.pronto == 'true'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- novita.json monitoraggio/stato.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Aggiorna monitoraggio fonti Tyranids'
+            git push
+          fi
