@@ -2,19 +2,19 @@
   "schema_version": 1,
   "target_edition": 11,
   "items": [],
-  "last_check": "2026-10-04T09:27:19+00:00",
+  "last_check": "2026-10-04T09:28:16+00:00",
   "health": "ok",
   "checks": [
     {
       "url": "https://www.warhammer-community.com/api/search/downloads/?monitor_language=english",
       "status": "ok",
-      "baseline": true,
+      "baseline": false,
       "documents_found": 3
     },
     {
       "url": "https://www.warhammer-community.com/api/search/downloads/?monitor_language=italian",
       "status": "ok",
-      "baseline": true,
+      "baseline": false,
       "documents_found": 3
     },
     {
