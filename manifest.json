@@ -1,24 +1,21 @@
 {
-  "version": "11e-tyranids-2026.10.04-v1.5",
+  "version": "11e-tyranids-2026.10.04-v1.5-notifica-test",
   "schema_version": 5,
   "game_schema_version": 5,
   "listbuilder_schema_version": 2,
   "game_database_url": "https://raw.githubusercontent.com/salex20012000/TyranidsRosterUpdates/main/tyranids_game_data_11e_FINAL.json",
   "listbuilder_database_url": "https://raw.githubusercontent.com/salex20012000/TyranidsRosterUpdates/main/tyranids_listbuilder_competitive_FINAL.json",
   "database_url": "https://raw.githubusercontent.com/salex20012000/TyranidsRosterUpdates/main/tyranids_game_data_11e_FINAL.json",
-  "notes": "GW Munitorum Field Manual Tyranids v1.5 del 04/10/2026. Aggiornamento sincronizzato GAME_DATA + LIST_BUILDER_COMPETITIVE.",
+  "notes": "TEST NOTIFICA: non installare. Serve solo a verificare l’avviso ad app chiusa; ripristinare subito il manifest v1.5 prima di premere AGGIORNA TUTTA L’APP.",
   "update_details": {
-    "title": "Aggiornamento Tyranids MFM v1.5",
+    "title": "TEST NOTIFICA AGGIORNAMENTO",
     "published_at": "2026-10-04",
-    "source": "Games Workshop - Munitorum Field Manual",
-    "summary": "Aggiornamento completo dei dati Tyranids 11a edizione con installazione coordinata dei due database.",
+    "source": "Test locale del sistema notifiche",
+    "summary": "Test tecnico della notifica ad app chiusa. Non contiene un nuovo database reale.",
     "changes": [
-      "Punti unità allineati al MFM Tyranids v1.5",
-      "Fasce di costo per numero di copie mantenute nel GAME_DATA",
-      "Wargear a pagamento del Tyrannofex incluso",
-      "Force Disposition aggiornate per Invasion Fleet e Subterranean Assault",
-      "Potenziamenti e DP dei distaccamenti sincronizzati",
-      "GAME_DATA e LIST_BUILDER_COMPETITIVE aggiornati insieme"
+      "Verifica notifica con app chiusa",
+      "Verifica apertura schermata aggiornamenti",
+      "Nessun database reale da installare"
     ]
   }
 }
