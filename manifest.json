@@ -6,5 +6,19 @@
   "game_database_url": "https://raw.githubusercontent.com/salex20012000/TyranidsRosterUpdates/main/tyranids_game_data_11e_FINAL.json",
   "listbuilder_database_url": "https://raw.githubusercontent.com/salex20012000/TyranidsRosterUpdates/main/tyranids_listbuilder_competitive_FINAL.json",
   "database_url": "https://raw.githubusercontent.com/salex20012000/TyranidsRosterUpdates/main/tyranids_game_data_11e_FINAL.json",
-  "notes": "GW Munitorum Field Manual Tyranids v1.5 del 04/10/2026. Aggiornamento sincronizzato GAME_DATA + LIST_BUILDER_COMPETITIVE."
+  "notes": "GW Munitorum Field Manual Tyranids v1.5 del 04/10/2026. Aggiornamento sincronizzato GAME_DATA + LIST_BUILDER_COMPETITIVE.",
+  "update_details": {
+    "title": "Aggiornamento Tyranids MFM v1.5",
+    "published_at": "2026-10-04",
+    "source": "Games Workshop - Munitorum Field Manual",
+    "summary": "Aggiornamento completo dei dati Tyranids 11a edizione con installazione coordinata dei due database.",
+    "changes": [
+      "Punti unità allineati al MFM Tyranids v1.5",
+      "Fasce di costo per numero di copie mantenute nel GAME_DATA",
+      "Wargear a pagamento del Tyrannofex incluso",
+      "Force Disposition aggiornate per Invasion Fleet e Subterranean Assault",
+      "Potenziamenti e DP dei distaccamenti sincronizzati",
+      "GAME_DATA e LIST_BUILDER_COMPETITIVE aggiornati insieme"
+    ]
+  }
 }
