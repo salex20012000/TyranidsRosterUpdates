@@ -2,11 +2,11 @@
   "schema_version": 1,
   "pages": {
     "https://www.warhammer-community.com/api/search/downloads/?monitor_language=english": {
-      "last_success": "2026-10-10T06:03:46+00:00",
+      "last_success": "2026-10-10T12:44:25+00:00",
       "documents_found": 3
     },
     "https://www.warhammer-community.com/api/search/downloads/?monitor_language=italian": {
-      "last_success": "2026-10-10T06:03:46+00:00",
+      "last_success": "2026-10-10T12:44:25+00:00",
       "documents_found": 3
     }
   },
@@ -15,48 +15,48 @@
       "title": "Munitorum: indicatore pubblicazione",
       "text_sha256": "a610999eacb2bbe4ef84f00d2f0eafbd40aaf153ba402a81ff41c5d57503b15d",
       "edition": null,
-      "last_success": "2026-10-10T06:03:46+00:00"
+      "last_success": "2026-10-10T12:44:25+00:00"
     },
     "https://assets.warhammer-community.com/eng_01-06_warhammer40k_new40k_core_rules-was6fbu1ix-hfewhmxyiy.pdf": {
       "title": "Core Rules",
       "text_sha256": "c3872a73e4ec0cbcf0ff803f8f76668e3ff514c295dc4897c8957c7bf7857d04",
       "edition": null,
-      "last_success": "2026-10-10T06:03:46+00:00"
+      "last_success": "2026-10-10T12:44:25+00:00"
     },
     "https://assets.warhammer-community.com/eng_wh40k_core&key_universal_rules_updates-lu3grocned-rphh78bl6k.pdf": {
       "title": "Universal Rules Updates",
       "text_sha256": "eb1296692a3b141a415d524008513613ea6b46b1348c230f2867d4fbcd7a1197",
       "edition": null,
-      "last_success": "2026-10-10T06:03:46+00:00"
+      "last_success": "2026-10-10T12:44:25+00:00"
     },
     "https://assets.warhammer-community.com/eng_wh40k_faction_pack_tyranids-kbkk66qiwc-nh0khbkupv.pdf": {
       "title": "Faction Pack: Tyranids",
       "text_sha256": "623e62d4387e7b4dda33c417fec3a975464d2da9b55448cdce164a6d3301c954",
       "edition": null,
-      "last_success": "2026-10-10T06:03:46+00:00"
+      "last_success": "2026-10-10T12:44:25+00:00"
     },
     "https://assets.warhammer-community.com/ita_01-06_warhammer40k_new40k_core_rules-esunxoof60-fgsxiz0hza.pdf": {
       "title": "Regole Base",
       "text_sha256": "dc2ca9881a358859fed83bd459c124ad593b33ea89cc0bdaca385fcee777be41",
       "edition": null,
-      "last_success": "2026-10-10T06:03:46+00:00"
+      "last_success": "2026-10-10T12:44:25+00:00"
     },
     "https://assets.warhammer-community.com/ita_wh40k_core&key_universal_rules_updates-kox4axxcpb-u0hfxvis8q.pdf": {
       "title": "Aggiornamenti alle Regole Base",
       "text_sha256": "aacdef6eb877e530e7234266f134d0773b722ba1c806ccbbc4a68e32eee7d513",
       "edition": null,
-      "last_success": "2026-10-10T06:03:46+00:00"
+      "last_success": "2026-10-10T12:44:25+00:00"
     },
     "https://assets.warhammer-community.com/ita_wh40k_faction_pack_tyranids-hdhbeml6hr-mrme0hgpng.pdf": {
       "title": "Pacchetto della Fazione: Tiranidi",
       "text_sha256": "4427e3fece3745d93a232fdff48969c839cc15eb3614485a99d7e97eb8882bce",
       "edition": null,
-      "last_success": "2026-10-10T06:03:46+00:00"
+      "last_success": "2026-10-10T12:44:25+00:00"
     }
   },
   "baseline_completed": true,
   "baseline_pending": [],
-  "last_check": "2026-10-10T06:03:46+00:00",
+  "last_check": "2026-10-10T12:44:25+00:00",
   "checks": [
     {
       "url": "https://www.warhammer-community.com/api/search/downloads/?monitor_language=english",
