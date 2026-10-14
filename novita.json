@@ -35,9 +35,25 @@
       "before_sha256": null,
       "after_sha256": "2ff21723adb39ba309978ecb2104e5754b694b6d53929a3d70886a46a0bab63f",
       "summary": "Documento ufficiale nuovo o modificato. Verificare edizione, pertinenza Tyranids e modifiche effettive prima di aggiornare il database."
+    },
+    {
+      "id": "3836015cad90fe6f9c8291421777f62f140e64e550c990c1c13def9a04737ddc",
+      "detected_at": "2026-10-14T17:21:59+00:00",
+      "source": "GW ufficiale",
+      "url": "https://www.warhammer-community.com/en-gb/downloads/warhammer-40000/",
+      "title": "Munitorum Field Manual",
+      "status": "da_verificare",
+      "kind": "indicatore_pubblicazione_modificato",
+      "edition": null,
+      "target_edition_verified": false,
+      "material_change_confirmed": false,
+      "database_ready": false,
+      "summary": "GW ha modificato il collegamento o la data del Munitorum. Verificare i punti Tyranids nel documento ufficiale.",
+      "before_sha256": "a610999eacb2bbe4ef84f00d2f0eafbd40aaf153ba402a81ff41c5d57503b15d",
+      "after_sha256": "c8adba0229645c7c886dedac5f155e906d138228bf9ae4d47ad3fb69b0ad6eb0"
     }
   ],
-  "last_check": "2026-10-14T12:08:12+00:00",
+  "last_check": "2026-10-14T17:21:59+00:00",
   "health": "ok",
   "checks": [
     {
@@ -56,7 +72,7 @@
       "url": "https://www.warhammer-community.com/en-gb/downloads/warhammer-40000/",
       "status": "ok",
       "scope": "indicatore Munitorum",
-      "publication_marker": "[[\"http://mfm.warhammer-community.com/\", \"updated 30/09/2026\"]]"
+      "publication_marker": "[[\"http://mfm.warhammer-community.com/\", \"updated 14/10/2026\"]]"
     },
     {
       "url": "https://assets.warhammer-community.com/eng_01-06_warhammer40k_new40k_core_rules-was6fbu1ix-hfewhmxyiy.pdf",
