@@ -1,8 +1,43 @@
 {
   "schema_version": 1,
   "target_edition": 11,
-  "items": [],
-  "last_check": "2026-10-14T05:04:27+00:00",
+  "items": [
+    {
+      "id": "9b85e340b17afff3e2b2c7d6f554b168482827f36c400e1e95082840bc861acf",
+      "detected_at": "2026-10-14T12:08:12+00:00",
+      "source": "GW ufficiale",
+      "url": "https://assets.warhammer-community.com/eng_14-10_wh40k_faction_pack_tyranids-an12izciwp-np2hnkcsje.pdf",
+      "title": "Faction Pack: Tyranids",
+      "status": "da_verificare",
+      "kind": "documento_nuovo",
+      "edition": null,
+      "target_edition_verified": false,
+      "tyranids_mentioned": true,
+      "material_change_confirmed": false,
+      "database_ready": false,
+      "before_sha256": null,
+      "after_sha256": "58f4e2bf160d7054a71f1746d6f4d593531d8a476ef224418a9ce55f4e8a3d07",
+      "summary": "Documento ufficiale nuovo o modificato. Verificare edizione, pertinenza Tyranids e modifiche effettive prima di aggiornare il database."
+    },
+    {
+      "id": "5f01e088e24e3e3f825988eba06da8b15286ea13b569a7609c0c4d1159db4944",
+      "detected_at": "2026-10-14T12:08:12+00:00",
+      "source": "GW ufficiale",
+      "url": "https://assets.warhammer-community.com/ita_14-10_wh40k_faction_pack_tyranids-bpr7d5yhkk-xceyzg5dbg.pdf",
+      "title": "Pacchetto della Fazione: Tiranidi",
+      "status": "da_verificare",
+      "kind": "documento_nuovo",
+      "edition": null,
+      "target_edition_verified": false,
+      "tyranids_mentioned": true,
+      "material_change_confirmed": false,
+      "database_ready": false,
+      "before_sha256": null,
+      "after_sha256": "2ff21723adb39ba309978ecb2104e5754b694b6d53929a3d70886a46a0bab63f",
+      "summary": "Documento ufficiale nuovo o modificato. Verificare edizione, pertinenza Tyranids e modifiche effettive prima di aggiornare il database."
+    }
+  ],
+  "last_check": "2026-10-14T12:08:12+00:00",
   "health": "ok",
   "checks": [
     {
@@ -29,12 +64,12 @@
       "edition": null
     },
     {
-      "url": "https://assets.warhammer-community.com/eng_wh40k_core&key_universal_rules_updates-lu3grocned-rphh78bl6k.pdf",
+      "url": "https://assets.warhammer-community.com/eng_14-10_wh40k_faction_pack_tyranids-an12izciwp-np2hnkcsje.pdf",
       "status": "ok",
       "edition": null
     },
     {
-      "url": "https://assets.warhammer-community.com/eng_wh40k_faction_pack_tyranids-kbkk66qiwc-nh0khbkupv.pdf",
+      "url": "https://assets.warhammer-community.com/eng_wh40k_core&key_universal_rules_updates-lu3grocned-rphh78bl6k.pdf",
       "status": "ok",
       "edition": null
     },
@@ -44,12 +79,12 @@
       "edition": null
     },
     {
-      "url": "https://assets.warhammer-community.com/ita_wh40k_core&key_universal_rules_updates-kox4axxcpb-u0hfxvis8q.pdf",
+      "url": "https://assets.warhammer-community.com/ita_14-10_wh40k_faction_pack_tyranids-bpr7d5yhkk-xceyzg5dbg.pdf",
       "status": "ok",
       "edition": null
     },
     {
-      "url": "https://assets.warhammer-community.com/ita_wh40k_faction_pack_tyranids-hdhbeml6hr-mrme0hgpng.pdf",
+      "url": "https://assets.warhammer-community.com/ita_wh40k_core&key_universal_rules_updates-kox4axxcpb-u0hfxvis8q.pdf",
       "status": "ok",
       "edition": null
     }
