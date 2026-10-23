@@ -1,24 +1,29 @@
 {
-  "version": "11e-tyranids-2026.10.04-v1.5",
+  "version": "11e-tyranids-2026.10.23-v1.7-abilities79",
   "schema_version": 5,
   "game_schema_version": 5,
   "listbuilder_schema_version": 2,
   "game_database_url": "https://raw.githubusercontent.com/salex20012000/TyranidsRosterUpdates/main/tyranids_game_data_11e_FINAL.json",
   "listbuilder_database_url": "https://raw.githubusercontent.com/salex20012000/TyranidsRosterUpdates/main/tyranids_listbuilder_competitive_FINAL.json",
   "database_url": "https://raw.githubusercontent.com/salex20012000/TyranidsRosterUpdates/main/tyranids_game_data_11e_FINAL.json",
-  "notes": "GW Munitorum Field Manual Tyranids v1.5 del 04/10/2026. Aggiornamento sincronizzato GAME_DATA + LIST_BUILDER_COMPETITIVE.",
+  "notes": "Baseline Tyranids 11a edizione consolidata: GW MFM v1.5 del 04/10/2026 + Faction Pack v1.3 legale dal 14/10/2026. GAME_DATA e LIST_BUILDER_COMPETITIVE sincronizzati e validati. Integrazione abilità 79; collaudo Android ancora da eseguire.",
   "update_details": {
-    "title": "Aggiornamento Tyranids MFM v1.5",
-    "published_at": "2026-10-04",
-    "source": "Games Workshop - Munitorum Field Manual",
-    "summary": "Aggiornamento completo dei dati Tyranids 11a edizione con installazione coordinata dei due database.",
+    "title": "Tyranids 11E – integrazione 79 abilità",
+    "published_at": "2026-10-23",
+    "source": "Games Workshop – MFM v1.5 + Tyranids Faction Pack v1.3",
+    "summary": "Integrazione delle 79 abilità con traduzioni italiane e provenienza GW App/Wahapedia; database competitivo invariato.",
     "changes": [
-      "Punti unità allineati al MFM Tyranids v1.5",
-      "Fasce di costo per numero di copie mantenute nel GAME_DATA",
-      "Wargear a pagamento del Tyrannofex incluso",
-      "Force Disposition aggiornate per Invasion Fleet e Subterranean Assault",
-      "Potenziamenti e DP dei distaccamenti sincronizzati",
-      "GAME_DATA e LIST_BUILDER_COMPETITIVE aggiornati insieme"
+      "52 unità competitive allineate ai punti GW MFM v1.5",
+      "Fasce costo per numero di copie e wargear a pagamento del Tyrannofex mantenuti",
+      "Faction Pack Tyranids v1.3 verificato e Harpooned del Norn Assimilator aggiornato",
+      "Norn Emissary e Hyperadapted Raveners completati con i profili arma mancanti",
+      "Hive Crone: Thorax spur corretto da evidenza Codex GW; Hover rimosso e M/OC mantenuti secondo Faction Pack",
+      "Relazioni Leader/Bodyguard rese reciproche tra GAME_DATA e LIST_BUILDER_COMPETITIVE",
+      "Harridan e Hierophant completati con trasporto e profili damaged",
+      "5 datasheet Legends ufficiali del Faction Pack v1.3 idratati nella raccolta Legends",
+      "DP, Force Dispositions e potenziamenti sincronizzati con il blocco official_detachment_costs_v1_5",
+      "Schema invariato: GAME_DATA 5, LIST_BUILDER_COMPETITIVE 2",
+      "79 abilità datasheet attive: 46 GW App e 33 Wahapedia 11e; Hunter Organism archiviata"
     ]
   }
 }
