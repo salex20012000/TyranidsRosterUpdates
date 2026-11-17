@@ -1,17 +1,17 @@
 {
-  "version": "11e-tyranids-2026.10.23-v1.7-abilities79",
+  "version": "11e-tyranids-2026.11.17-v1.8-rules122",
   "schema_version": 5,
   "game_schema_version": 5,
   "listbuilder_schema_version": 2,
   "game_database_url": "https://raw.githubusercontent.com/salex20012000/TyranidsRosterUpdates/main/tyranids_game_data_11e_FINAL.json",
   "listbuilder_database_url": "https://raw.githubusercontent.com/salex20012000/TyranidsRosterUpdates/main/tyranids_listbuilder_competitive_FINAL.json",
   "database_url": "https://raw.githubusercontent.com/salex20012000/TyranidsRosterUpdates/main/tyranids_game_data_11e_FINAL.json",
-  "notes": "Baseline Tyranids 11a edizione consolidata: GW MFM v1.5 del 04/10/2026 + Faction Pack v1.3 legale dal 14/10/2026. GAME_DATA e LIST_BUILDER_COMPETITIVE sincronizzati e validati. Integrazione abilità 79; collaudo Android ancora da eseguire.",
+  "notes": "Consolidamento tecnico GAME DATA: 122 definizioni legacy aggiunte, senza alterare le 52 unità o i dati competitivi. Verifica integrazione Android e conformità GW delle definizioni ancora necessaria.",
   "update_details": {
-    "title": "Tyranids 11E – integrazione 79 abilità",
-    "published_at": "2026-10-23",
+    "title": "Tyranids 11E – consolidamento 122 definizioni regole",
+    "published_at": "2026-11-17",
     "source": "Games Workshop – MFM v1.5 + Tyranids Faction Pack v1.3",
-    "summary": "Integrazione delle 79 abilità con traduzioni italiane e provenienza GW App/Wahapedia; database competitivo invariato.",
+    "summary": "Aggiunte 122 rule_definitions al GAME DATA esistente; unità, abilità e List Builder invariati. Da collaudare prima della pubblicazione.",
     "changes": [
       "52 unità competitive allineate ai punti GW MFM v1.5",
       "Fasce costo per numero di copie e wargear a pagamento del Tyrannofex mantenuti",
@@ -23,7 +23,8 @@
       "5 datasheet Legends ufficiali del Faction Pack v1.3 idratati nella raccolta Legends",
       "DP, Force Dispositions e potenziamenti sincronizzati con il blocco official_detachment_costs_v1_5",
       "Schema invariato: GAME_DATA 5, LIST_BUILDER_COMPETITIVE 2",
-      "79 abilità datasheet attive: 46 GW App e 33 Wahapedia 11e; Hunter Organism archiviata"
+      "79 abilità datasheet attive: 46 GW App e 33 Wahapedia 11e; Hunter Organism archiviata",
+      "122 definizioni legacy aggiunte a GAME DATA; testi da verificare con GW e integrazione Android da collaudare"
     ]
   }
 }
