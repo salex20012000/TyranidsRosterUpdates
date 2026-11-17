@@ -32470,5 +32470,861 @@
         "verification": "GW_11E_VERIFIED"
       }
     }
+  },
+  "rule_definitions": {
+    "Deep Strike": {
+      "name": "Deep Strike",
+      "name_it": "Attacco in Profondità",
+      "text_it": "Questa unità può iniziare la battaglia nelle Riserve. Quando viene schierata usando Attacco in Profondità, viene collocata secondo le regole delle Riserve/Rinforzi applicabili, normalmente a più di 8\" orizzontalmente da tutti i modelli nemici.",
+      "kind": "core",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "Deadly Demise 1": {
+      "name": "Deadly Demise 1",
+      "name_it": "Morte Esplosiva 1",
+      "text_it": "Quando questo modello viene distrutto, tira un D6 prima di rimuoverlo dal campo. Con 6, ogni unità entro 6\" subisce 1 ferita mortale.",
+      "kind": "core",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "Deadly Demise D3": {
+      "name": "Deadly Demise D3",
+      "name_it": "Morte Esplosiva D3",
+      "text_it": "Quando questo modello viene distrutto, tira un D6 prima di rimuoverlo dal campo. Con 6, ogni unità entro 6\" subisce D3 ferite mortali.",
+      "kind": "core",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "Deadly Demise D6": {
+      "name": "Deadly Demise D6",
+      "name_it": "Morte Esplosiva D6",
+      "text_it": "Quando questo modello viene distrutto, tira un D6 prima di rimuoverlo dal campo. Con 6, ogni unità entro 6\" subisce D6 ferite mortali.",
+      "kind": "core",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "Deadly Demise 2D6": {
+      "name": "Deadly Demise 2D6",
+      "name_it": "Morte Esplosiva 2D6",
+      "text_it": "Quando questo modello viene distrutto, tira un D6 prima di rimuoverlo dal campo. Con 6, ogni unità entro 6\" subisce 2D6 ferite mortali.",
+      "kind": "core",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "Leader": {
+      "name": "Leader",
+      "name_it": "Leader",
+      "text_it": "Prima della battaglia, un PERSONAGGIO con questa abilità può essere aggregato a una delle unità che è autorizzato a guidare. Il PERSONAGGIO e la sua unità Guardia del Corpo formano un’unità Aggregata e seguono le regole dei Leader.",
+      "kind": "core",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "Stealth": {
+      "name": "Stealth",
+      "name_it": "Furtività",
+      "text_it": "Ogni volta che un attacco da tiro ha come bersaglio questa unità, sottrai 1 al tiro per Colpire.",
+      "kind": "core",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "Infiltrators": {
+      "name": "Infiltrators",
+      "name_it": "Infiltratori",
+      "text_it": "Durante lo schieramento, questa unità può essere schierata sul campo al di fuori della propria zona di schieramento, rispettando la distanza minima prevista dalle regole dagli avversari e dalla loro zona di schieramento.",
+      "kind": "core",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "Lone Operative": {
+      "name": "Lone Operative",
+      "name_it": "Operativo Solitario",
+      "text_it": "Se questa unità non fa parte di un’unità Aggregata, non può essere scelta come bersaglio di attacchi da tiro effettuati da modelli oltre la distanza prevista dalla regola Operativo Solitario, salvo eccezioni specifiche.",
+      "kind": "core",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "Fights First": {
+      "name": "Fights First",
+      "name_it": "Combatte per Primo",
+      "text_it": "Le unità con questa abilità che sono idonee a combattere lo fanno nel passo Combatte per Primo della fase di Combattimento.",
+      "kind": "core",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "Scouts 8\"": {
+      "name": "Scouts 8\"",
+      "name_it": "Esploratori 8\"",
+      "text_it": "Prima dell’inizio del primo turno, questa unità può effettuare un movimento Esploratori fino a 8\", rispettando le restrizioni previste dalla regola Esploratori.",
+      "kind": "core",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "Feel No Pain 5+": {
+      "name": "Feel No Pain 5+",
+      "name_it": "Insensibile al Dolore 5+",
+      "text_it": "Ogni volta che questo modello sta per perdere una ferita, tira un D6: con 5+ quella ferita non viene persa.",
+      "kind": "core",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "Hover": {
+      "name": "Hover",
+      "name_it": "Stazionario",
+      "text_it": "Prima della battaglia, un modello con questa abilità può scegliere di operare in modalità Stazionario secondo le regole dei velivoli; in tal caso perde/ignora le regole di movimento da Velivolo previste per la battaglia.",
+      "kind": "core",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "Synapse": {
+      "name": "Synapse",
+      "name_it": "Sinapsi",
+      "text_it": "Finché un’unità TYRANIDS della tua armata si trova entro 6\" da uno o più modelli SINAPSI amici, è entro la Portata Sinaptica della tua armata. Finché è entro Portata Sinaptica, effettua i test di Shock da Battaglia con 3D6 invece di 2D6 e aggiunge 1 alla Forza degli attacchi da mischia effettuati dai suoi modelli.",
+      "kind": "faction",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "Shadow in the Warp": {
+      "name": "Shadow in the Warp",
+      "name_it": "Ombra nel Warp",
+      "text_it": "Una volta per battaglia, nella fase di Comando di uno dei due giocatori, se sul campo è presente almeno un’unità della tua armata con questa abilità, puoi scatenare l’Ombra nel Warp. Ogni unità nemica sul campo deve effettuare un test di Shock da Battaglia; se si trova entro 6\" da una o più unità SINAPSI della tua armata, sottrai 1 da quel test.",
+      "kind": "faction",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "Shadow in the Warp (Ravener Prime only)": {
+      "name": "Shadow in the Warp (Ravener Prime only)",
+      "name_it": "Ombra nel Warp (solo Ravener Prime)",
+      "text_it": "Questa abilità si applica solo al Ravener Prime. Una volta per battaglia puoi scatenare Ombra nel Warp secondo la regola di fazione Tyranids.",
+      "kind": "faction",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "INFANTRY": {
+      "name": "INFANTRY",
+      "name_it": "FANTERIA",
+      "text_it": "Keyword di tipo unità. Indica che questa è un’unità di Fanteria e interagisce con tutte le regole che fanno riferimento alla FANTERIA.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "MONSTER": {
+      "name": "MONSTER",
+      "name_it": "MOSTRO",
+      "text_it": "Keyword di tipo unità. Indica che questa è un’unità Mostro e interagisce con tutte le regole che fanno riferimento ai MOSTRI.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "CHARACTER": {
+      "name": "CHARACTER",
+      "name_it": "PERSONAGGIO",
+      "text_it": "Keyword di tipo unità. Identifica un modello Personaggio e abilita/interagisce con le regole che fanno riferimento ai PERSONAGGI.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "EPIC HERO": {
+      "name": "EPIC HERO",
+      "name_it": "EROE EPICO",
+      "text_it": "Un EROE EPICO è un personaggio unico: nella tua armata non puoi includere più di una copia dello stesso EROE EPICO.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "PSYKER": {
+      "name": "PSYKER",
+      "name_it": "PSIONICO",
+      "text_it": "Keyword di tipo unità. Identifica un modello Psionico; le armi e abilità Psichiche possono interagire specificamente con i modelli PSIONICI.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "FLY": {
+      "name": "FLY",
+      "name_it": "VOLA",
+      "text_it": "Keyword di movimento. Questa unità può interagire con le regole VOLA e con armi/abilità che fanno riferimento a unità che possono VOLARE.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "AIRCRAFT": {
+      "name": "AIRCRAFT",
+      "name_it": "VELIVOLO",
+      "text_it": "Keyword di tipo unità. Il modello segue le regole specifiche dei Velivoli, salvo che una regola come Stazionario ne modifichi il comportamento.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "BATTLELINE": {
+      "name": "BATTLELINE",
+      "name_it": "LINEA DI BATTAGLIA",
+      "text_it": "Keyword di ruolo dell’armata. Le unità Linea di Battaglia possono avere limiti di inclusione e interazioni specifiche nelle regole di costruzione dell’armata.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "BEAST": {
+      "name": "BEAST",
+      "name_it": "BESTIA",
+      "text_it": "Keyword di tipo unità. Interagisce con le regole che fanno riferimento alle BESTIE.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "SWARM": {
+      "name": "SWARM",
+      "name_it": "SCIAME",
+      "text_it": "Keyword di tipo unità. Interagisce con le regole che fanno riferimento agli SCIAMI.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "TITANIC": {
+      "name": "TITANIC",
+      "name_it": "TITANICO",
+      "text_it": "Keyword di tipo unità. Identifica modelli di scala titanica e interagisce con le regole che fanno riferimento ai TITANICI.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "TOWERING": {
+      "name": "TOWERING",
+      "name_it": "TORREGGIANTE",
+      "text_it": "Keyword di tipo unità. Interagisce con le regole specifiche per i modelli TORREGGIANTI.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "TRANSPORT": {
+      "name": "TRANSPORT",
+      "name_it": "TRASPORTO",
+      "text_it": "Keyword di tipo unità. Questa unità può trasportare modelli secondo la propria Capacità di Trasporto e le regole dei Trasporti.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "DEDICATED TRANSPORT": {
+      "name": "DEDICATED TRANSPORT",
+      "name_it": "TRASPORTO DEDICATO",
+      "text_it": "Keyword di ruolo. Identifica un Trasporto Dedicato e interagisce con le regole di costruzione dell’armata e di schieramento dei Trasporti.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "SMOKE": {
+      "name": "SMOKE",
+      "name_it": "FUMO",
+      "text_it": "Keyword che permette all’unità di essere scelta da regole e Stratagemmi che richiedono la keyword FUMO.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "GREAT DEVOURER": {
+      "name": "GREAT DEVOURER",
+      "name_it": "GRANDE DIVORATORE",
+      "text_it": "Keyword Tyranids usata per identificare e collegare regole, distaccamenti e abilità che fanno riferimento al GRANDE DIVORATORE.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "VANGUARD INVADER": {
+      "name": "VANGUARD INVADER",
+      "name_it": "INVASORE D’AVANGUARDIA",
+      "text_it": "Keyword Tyranids usata da regole e distaccamenti che interagiscono con gli INVASORI D’AVANGUARDIA.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "ENDLESS MULTITUDE": {
+      "name": "ENDLESS MULTITUDE",
+      "name_it": "MOLTITUDINE INFINITA",
+      "text_it": "Keyword Tyranids usata da regole e Stratagemmi che fanno riferimento alle unità MOLTITUDINE INFINITA.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "HARVESTER": {
+      "name": "HARVESTER",
+      "name_it": "RACCOGLITORE",
+      "text_it": "Keyword Tyranids usata da regole e distaccamenti che fanno riferimento ai RACCOGLITORI.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "BURROWER": {
+      "name": "BURROWER",
+      "name_it": "SCAVATORE",
+      "text_it": "Keyword Tyranids usata da regole che fanno riferimento alle unità SCAVATORE.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "BURROWERS": {
+      "name": "BURROWERS",
+      "name_it": "SCAVATORI",
+      "text_it": "Keyword Tyranids usata da regole che fanno riferimento alle unità SCAVATORI.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "FRAME": {
+      "name": "FRAME",
+      "name_it": "STRUTTURA",
+      "text_it": "Keyword di classificazione usata per alcune bioforme/strutture Tyranids e dalle regole che vi fanno riferimento.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "AGILE": {
+      "name": "AGILE",
+      "name_it": "AGILE",
+      "text_it": "Keyword di classificazione usata dalle regole che fanno riferimento alle unità AGILI.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "LEADER": {
+      "name": "LEADER",
+      "name_it": "LEADER",
+      "text_it": "Keyword identificativa presente sul datasheet; per l’effetto di gioco consulta l’abilità Leader.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "BARBGAUNTS": {
+      "name": "BARBGAUNTS",
+      "name_it": "Barbgaunts",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "BIOVORES": {
+      "name": "BIOVORES",
+      "name_it": "Biovores",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "BROODLORD": {
+      "name": "BROODLORD",
+      "name_it": "Broodlord",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "CARNIFEXES": {
+      "name": "CARNIFEXES",
+      "name_it": "Carnifexes",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "CHARACTER (Ravener Prime)": {
+      "name": "CHARACTER (Ravener Prime)",
+      "name_it": "PERSONAGGIO (Ravener Prime)",
+      "text_it": "Questa keyword si applica esclusivamente al modello Ravener Prime all’interno dell’unità.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "DEATHLEAPER": {
+      "name": "DEATHLEAPER",
+      "name_it": "Deathleaper",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "EXOCRINE": {
+      "name": "EXOCRINE",
+      "name_it": "Exocrine",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "GARGOYLES": {
+      "name": "GARGOYLES",
+      "name_it": "Gargoyles",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "GENESTEALERS": {
+      "name": "GENESTEALERS",
+      "name_it": "Genestealers",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "HARPY": {
+      "name": "HARPY",
+      "name_it": "Harpy",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "HARRIDAN": {
+      "name": "HARRIDAN",
+      "name_it": "Harridan",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "HARUSPEX": {
+      "name": "HARUSPEX",
+      "name_it": "Haruspex",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "HIEROPHANT": {
+      "name": "HIEROPHANT",
+      "name_it": "Hierophant",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "HIVE CRONE": {
+      "name": "HIVE CRONE",
+      "name_it": "Hive Crone",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "HIVE GUARD": {
+      "name": "HIVE GUARD",
+      "name_it": "Hive Guard",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "HIVE TYRANT": {
+      "name": "HIVE TYRANT",
+      "name_it": "Hive Tyrant",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "HORMAGAUNTS": {
+      "name": "HORMAGAUNTS",
+      "name_it": "Hormagaunts",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "HYPERADAPTED RAVENERS": {
+      "name": "HYPERADAPTED RAVENERS",
+      "name_it": "Hyperadapted Raveners",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "LICTOR": {
+      "name": "LICTOR",
+      "name_it": "Lictor",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "MALECEPTOR": {
+      "name": "MALECEPTOR",
+      "name_it": "Maleceptor",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "MAWLOC": {
+      "name": "MAWLOC",
+      "name_it": "Mawloc",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "MUCOLID SPORES": {
+      "name": "MUCOLID SPORES",
+      "name_it": "Mucolid Spores",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "NEUROGAUNTS": {
+      "name": "NEUROGAUNTS",
+      "name_it": "Neurogaunts",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "NEUROLICTOR": {
+      "name": "NEUROLICTOR",
+      "name_it": "Neurolictor",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "NEUROTYRANT": {
+      "name": "NEUROTYRANT",
+      "name_it": "Neurotyrant",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "NORN ASSIMILATOR": {
+      "name": "NORN ASSIMILATOR",
+      "name_it": "Norn Assimilator",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "NORN EMISSARY": {
+      "name": "NORN EMISSARY",
+      "name_it": "Norn Emissary",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "OLD ONE EYE": {
+      "name": "OLD ONE EYE",
+      "name_it": "Old One Eye",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "PARASITE OF MORTREX": {
+      "name": "PARASITE OF MORTREX",
+      "name_it": "Parasite Of Mortrex",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "PSYCHOPHAGE": {
+      "name": "PSYCHOPHAGE",
+      "name_it": "Psychophage",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "PYROVORES": {
+      "name": "PYROVORES",
+      "name_it": "Pyrovores",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "RAVENERS": {
+      "name": "RAVENERS",
+      "name_it": "Raveners",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "RIPPER SWARMS": {
+      "name": "RIPPER SWARMS",
+      "name_it": "Ripper Swarms",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "SCREAMER-KILLER": {
+      "name": "SCREAMER-KILLER",
+      "name_it": "Screamer-Killer",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "SPORE MINES": {
+      "name": "SPORE MINES",
+      "name_it": "Spore Mines",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "SPOROCYST": {
+      "name": "SPOROCYST",
+      "name_it": "Sporocyst",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "SYNAPSE": {
+      "name": "SYNAPSE",
+      "name_it": "Synapse",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "SYNAPSE (Ravener Prime)": {
+      "name": "SYNAPSE (Ravener Prime)",
+      "name_it": "SINAPSI (Ravener Prime)",
+      "text_it": "Questa keyword si applica esclusivamente al modello Ravener Prime all’interno dell’unità; quel modello conta come SINAPSI per le regole che vi fanno riferimento.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "TERMAGANTS": {
+      "name": "TERMAGANTS",
+      "name_it": "Termagants",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "TERVIGON": {
+      "name": "TERVIGON",
+      "name_it": "Tervigon",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "THE RED TERROR": {
+      "name": "THE RED TERROR",
+      "name_it": "The Red Terror",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "THE SWARMLORD": {
+      "name": "THE SWARMLORD",
+      "name_it": "The Swarmlord",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "TOXICRENE": {
+      "name": "TOXICRENE",
+      "name_it": "Toxicrene",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "TRYGON": {
+      "name": "TRYGON",
+      "name_it": "Trygon",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "TYRANID PRIME WITH LASH WHIP": {
+      "name": "TYRANID PRIME WITH LASH WHIP",
+      "name_it": "Tyranid Prime With Lash Whip",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "TYRANID WARRIORS WITH MELEE BIO-WEAPONS": {
+      "name": "TYRANID WARRIORS WITH MELEE BIO-WEAPONS",
+      "name_it": "Tyranid Warriors With Melee Bio-Weapons",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "TYRANID WARRIORS WITH RANGED BIO-WEAPONS": {
+      "name": "TYRANID WARRIORS WITH RANGED BIO-WEAPONS",
+      "name_it": "Tyranid Warriors With Ranged Bio-Weapons",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "TYRANNOCYTE": {
+      "name": "TYRANNOCYTE",
+      "name_it": "Tyrannocyte",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "TYRANNOFEX": {
+      "name": "TYRANNOFEX",
+      "name_it": "Tyrannofex",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "TYRANT GUARD": {
+      "name": "TYRANT GUARD",
+      "name_it": "Tyrant Guard",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "VENOMTHROPES": {
+      "name": "VENOMTHROPES",
+      "name_it": "Venomthropes",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "VON RYAN’S LEAPERS": {
+      "name": "VON RYAN’S LEAPERS",
+      "name_it": "Von Ryan’S Leapers",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "WINGED HIVE TYRANT": {
+      "name": "WINGED HIVE TYRANT",
+      "name_it": "Winged Hive Tyrant",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "WINGED TYRANID PRIME": {
+      "name": "WINGED TYRANID PRIME",
+      "name_it": "Winged Tyranid Prime",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "ZOANTHROPES": {
+      "name": "ZOANTHROPES",
+      "name_it": "Zoanthropes",
+      "text_it": "Keyword identificativa del datasheet/unità. Non conferisce da sola una regola aggiuntiva; viene usata quando altre regole fanno esplicito riferimento a questa keyword.",
+      "kind": "unit_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "Assault": {
+      "name": "Assault",
+      "name_it": "ASSALTO",
+      "text_it": "Un’arma con ASSALTO può essere usata per tirare anche se l’unità del modello ha Avanzato, secondo le limitazioni previste dalle regole di Tiro.",
+      "kind": "weapon_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "Blast": {
+      "name": "Blast",
+      "name_it": "AREA",
+      "text_it": "Quando determini il numero di attacchi di quest’arma, ottiene attacchi aggiuntivi in base al numero di modelli presenti nell’unità bersaglio, secondo la regola AREA.",
+      "kind": "weapon_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "Devastating Wounds": {
+      "name": "Devastating Wounds",
+      "name_it": "FERITE DEVASTANTI",
+      "text_it": "Ogni Ferita Critica inflitta da quest’arma viene risolta come ferita devastante secondo le regole dell’11ª edizione, impedendo i normali tiri salvezza previsti dalla regola e applicando il danno secondo la sequenza corrente.",
+      "kind": "weapon_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "Extra Attacks": {
+      "name": "Extra Attacks",
+      "name_it": "ATTACCHI EXTRA",
+      "text_it": "Quando il portatore combatte, effettua anche gli attacchi con questa arma in aggiunta agli attacchi effettuati con la normale selezione dell’arma da mischia.",
+      "kind": "weapon_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "Heavy": {
+      "name": "Heavy",
+      "name_it": "PESANTE",
+      "text_it": "Un’arma PESANTE ottiene il beneficio previsto dalla regola Pesante quando l’unità soddisfa le condizioni di stazionarietà/movimento previste dalle regole correnti.",
+      "kind": "weapon_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "Ignores Cover": {
+      "name": "Ignores Cover",
+      "name_it": "IGNORA COPERTURA",
+      "text_it": "Il bersaglio non può beneficiare della Copertura contro gli attacchi effettuati con quest’arma.",
+      "kind": "weapon_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "Indirect Fire": {
+      "name": "Indirect Fire",
+      "name_it": "FUOCO INDIRETTO",
+      "text_it": "Quest’arma può bersagliare unità non visibili secondo le regole del Fuoco Indiretto; quando lo fa si applicano le penalità e le limitazioni previste dalla regola.",
+      "kind": "weapon_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "Lethal Hits": {
+      "name": "Lethal Hits",
+      "name_it": "COLPI LETALI",
+      "text_it": "Ogni Colpo Critico effettuato con quest’arma ferisce automaticamente il bersaglio.",
+      "kind": "weapon_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "Pistol": {
+      "name": "Pistol",
+      "name_it": "PISTOLA",
+      "text_it": "Quest’arma può essere usata a distanza ravvicinata secondo le regole delle Pistole e le relative restrizioni.",
+      "kind": "weapon_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "Precision": {
+      "name": "Precision",
+      "name_it": "PRECISIONE",
+      "text_it": "Quando questa arma attacca un’unità Aggregata, può permettere di assegnare gli attacchi a un modello PERSONAGGIO visibile secondo la regola Precisione.",
+      "kind": "weapon_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "Psychic": {
+      "name": "Psychic",
+      "name_it": "PSICHICA",
+      "text_it": "Gli attacchi effettuati con questa arma sono attacchi Psichici e interagiscono con le regole che fanno riferimento agli attacchi PSICHICI.",
+      "kind": "weapon_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "Torrent": {
+      "name": "Torrent",
+      "name_it": "TORRENTE",
+      "text_it": "Gli attacchi effettuati con quest’arma colpiscono automaticamente; non si effettua il tiro per Colpire.",
+      "kind": "weapon_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "Twin-linked": {
+      "name": "Twin-linked",
+      "name_it": "BINATA",
+      "text_it": "Ogni volta che effettui un attacco con quest’arma, puoi ripetere il tiro per Ferire.",
+      "kind": "weapon_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "Sustained Hits 1": {
+      "name": "Sustained Hits 1",
+      "name_it": "COLPI SOSTENUTI 1",
+      "text_it": "Ogni Colpo Critico ottenuto con quest’arma genera 1 colpo aggiuntivo sul bersaglio.",
+      "kind": "weapon_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "Sustained Hits 2": {
+      "name": "Sustained Hits 2",
+      "name_it": "COLPI SOSTENUTI 2",
+      "text_it": "Ogni Colpo Critico ottenuto con quest’arma genera 2 colpi aggiuntivi sul bersaglio.",
+      "kind": "weapon_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "Melta 2": {
+      "name": "Melta 2",
+      "name_it": "FUSIONE 2",
+      "text_it": "Quando il bersaglio è entro metà della gittata dell’arma, aggiungi 2 alla caratteristica Danno dell’attacco, secondo la regola Fusione.",
+      "kind": "weapon_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "Harpooned": {
+      "name": "Harpooned",
+      "name_it": "ARPIONATO",
+      "text_it": "Regola speciale dell’arma. Usa il testo specifico associato al profilo dell’arma/datasheet quando presente.",
+      "kind": "weapon_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "Anti-Fly 2+": {
+      "name": "Anti-Fly 2+",
+      "name_it": "ANTI-VOLA 2+",
+      "text_it": "Quando quest’arma effettua un attacco contro un bersaglio con la keyword VOLA, un tiro per Ferire non modificato di 2+ è una Ferita Critica.",
+      "kind": "weapon_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "Anti-Infantry 2+": {
+      "name": "Anti-Infantry 2+",
+      "name_it": "ANTI-FANTERIA 2+",
+      "text_it": "Quando quest’arma effettua un attacco contro un bersaglio con la keyword FANTERIA, un tiro per Ferire non modificato di 2+ è una Ferita Critica.",
+      "kind": "weapon_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "Anti-Infantry 3+": {
+      "name": "Anti-Infantry 3+",
+      "name_it": "ANTI-FANTERIA 3+",
+      "text_it": "Quando quest’arma effettua un attacco contro un bersaglio con la keyword FANTERIA, un tiro per Ferire non modificato di 3+ è una Ferita Critica.",
+      "kind": "weapon_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "Anti-Infantry 4+": {
+      "name": "Anti-Infantry 4+",
+      "name_it": "ANTI-FANTERIA 4+",
+      "text_it": "Quando quest’arma effettua un attacco contro un bersaglio con la keyword FANTERIA, un tiro per Ferire non modificato di 4+ è una Ferita Critica.",
+      "kind": "weapon_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "Anti-Monster 5+": {
+      "name": "Anti-Monster 5+",
+      "name_it": "ANTI-MOSTRO 5+",
+      "text_it": "Quando quest’arma effettua un attacco contro un bersaglio con la keyword MOSTRO, un tiro per Ferire non modificato di 5+ è una Ferita Critica.",
+      "kind": "weapon_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "Anti-Psyker 4+": {
+      "name": "Anti-Psyker 4+",
+      "name_it": "ANTI-PSIONICO 4+",
+      "text_it": "Quando quest’arma effettua un attacco contro un bersaglio con la keyword PSIONICO, un tiro per Ferire non modificato di 4+ è una Ferita Critica.",
+      "kind": "weapon_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "Anti-Vehicle 2+": {
+      "name": "Anti-Vehicle 2+",
+      "name_it": "ANTI-VEICOLO 2+",
+      "text_it": "Quando quest’arma effettua un attacco contro un bersaglio con la keyword VEICOLO, un tiro per Ferire non modificato di 2+ è una Ferita Critica.",
+      "kind": "weapon_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "Anti-Vehicle 4+": {
+      "name": "Anti-Vehicle 4+",
+      "name_it": "ANTI-VEICOLO 4+",
+      "text_it": "Quando quest’arma effettua un attacco contro un bersaglio con la keyword VEICOLO, un tiro per Ferire non modificato di 4+ è una Ferita Critica.",
+      "kind": "weapon_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "Anti-Vehicle 5+": {
+      "name": "Anti-Vehicle 5+",
+      "name_it": "ANTI-VEICOLO 5+",
+      "text_it": "Quando quest’arma effettua un attacco contro un bersaglio con la keyword VEICOLO, un tiro per Ferire non modificato di 5+ è una Ferita Critica.",
+      "kind": "weapon_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    },
+    "TYRANIDS": {
+      "name": "TYRANIDS",
+      "name_it": "TYRANIDS",
+      "text_it": "Keyword di fazione. Identifica le unità appartenenti alla fazione Tyranids e viene usata da regole, abilità, Stratagemmi e restrizioni che fanno riferimento alle unità TYRANIDS.",
+      "kind": "faction_keyword",
+      "source": "Warhammer 40,000 11ª edizione / Tyranids 11ª"
+    }
   }
 }
